@@ -14,6 +14,7 @@
 		25BFA6501ABC7D8300CF4589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BFA64F1ABC7D8300CF4589 /* Images.xcassets */; };
 		25BFA6531ABC7D8300CF4589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BFA6511ABC7D8300CF4589 /* LaunchScreen.xib */; };
 		25BFA65F1ABC7D8300CF4589 /* FastPass_iOS_Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFA65E1ABC7D8300CF4589 /* FastPass_iOS_Test_AppTests.m */; };
+		37143FADB9ED722105C2B03B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4F9B576909B9DD05BA5434 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FA0DF309B30E1693373E1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		25BFA63F1ABC7D8300CF4589 /* FastPass iOS Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FastPass iOS Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BFA6431ABC7D8300CF4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25BFA6441ABC7D8300CF4589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		25BFA6581ABC7D8300CF4589 /* FastPass iOS Test AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FastPass iOS Test AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BFA65D1ABC7D8300CF4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25BFA65E1ABC7D8300CF4589 /* FastPass_iOS_Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastPass_iOS_Test_AppTests.m; sourceTree = "<group>"; };
+		36737F3C19239DC05CD6253C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8B4F9B576909B9DD05BA5434 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37143FADB9ED722105C2B03B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E68A17C5D871705A2D06164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01FA0DF309B30E1693373E1A /* Pods.debug.xcconfig */,
+				36737F3C19239DC05CD6253C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0FC671FD693DB734E6E50689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F9B576909B9DD05BA5434 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25BFA6361ABC7D8300CF4589 = {
 			isa = PBXGroup;
 			children = (
 				25BFA6411ABC7D8300CF4589 /* FastPass iOS Test App */,
 				25BFA65B1ABC7D8300CF4589 /* FastPass iOS Test AppTests */,
 				25BFA6401ABC7D8300CF4589 /* Products */,
+				0E68A17C5D871705A2D06164 /* Pods */,
+				0FC671FD693DB734E6E50689 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25BFA6621ABC7D8300CF4589 /* Build configuration list for PBXNativeTarget "FastPass iOS Test App" */;
 			buildPhases = (
+				8E768FF4B66217CB7D1BE719 /* Check Pods Manifest.lock */,
 				25BFA63B1ABC7D8300CF4589 /* Sources */,
 				25BFA63C1ABC7D8300CF4589 /* Frameworks */,
 				25BFA63D1ABC7D8300CF4589 /* Resources */,
+				0D99407EFC26926DE2676868 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D99407EFC26926DE2676868 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E768FF4B66217CB7D1BE719 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25BFA63B1ABC7D8300CF4589 /* Sources */ = {
@@ -341,6 +400,7 @@
 		};
 		25BFA6631ABC7D8300CF4589 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FA0DF309B30E1693373E1A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FastPass iOS Test App/Info.plist";
@@ -351,6 +411,7 @@
 		};
 		25BFA6641ABC7D8300CF4589 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36737F3C19239DC05CD6253C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FastPass iOS Test App/Info.plist";
@@ -412,6 +473,7 @@
 				25BFA6641ABC7D8300CF4589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25BFA6651ABC7D8300CF4589 /* Build configuration list for PBXNativeTarget "FastPass iOS Test AppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +482,7 @@
 				25BFA6671ABC7D8300CF4589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

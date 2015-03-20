@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>999F0305-AA63-4447-8E14-4D651FB972C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FastPass iOS Test App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</key>
+		<string>github.com:satisfaction/FastPass-iOS-Test-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FastPass iOS Test App.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:satisfaction/FastPass-iOS-Test-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FastPass%20iOS%20Test%20App</string>
+		</dict>
+	</array>
+</dict>
+</plist>
