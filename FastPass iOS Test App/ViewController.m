@@ -8,33 +8,44 @@
 
 #import "ViewController.h"
 
-#import <AFOAuth1Client/AFOAuth1Client.h>
+#import <BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h>
+#import <BDBOAuth1Manager/NSString+BDBOAuth1Manager.h>
+#import <BDBOAuth1Manager/NSDictionary+BDBOAuth1Manager.h>
 
 static NSString *const kOAuthProtocol = @"https";
-static NSString *const kOAuthHost = @"staging.getsatisfaction.com";
-static NSString *const kOAuthConsumerKey = @"ud65x2rfld83";
-static NSString *const kOAuthConsumerSecret = @"3fk3tadpigapxrkuz5r3jgp6lamb8zlo";
+static NSString *const kOAuthHost = @"dev.gsfn.us";
+static NSString *const kOAuthConsumerKey = @"hssewhwk32i1";
+static NSString *const kOAuthConsumerSecret = @"97ffsfe2ryqspj1ye345li6g3x3eu0ua";
 
-@interface AFOAuth1Client ()
+@interface BDBOAuth1RequestSerializer ()
 
-- (NSMutableURLRequest *)requestWithMethod:(NSString *)method
-                                      path:(NSString *)path
-                                parameters:(NSDictionary *)parameters;
+- (NSString *)OAuthSignatureForMethod:(NSString *)method
+                            URLString:(NSString *)URLString
+                           parameters:(NSDictionary *)parameters
+                                error:(NSError *__autoreleasing *)error;
+
+- (NSString *)OAuthAuthorizationHeaderForMethod:(NSString *)method
+                                      URLString:(NSString *)URLString
+                                     parameters:(NSDictionary *)parameters
+                                          error:(NSError *__autoreleasing *)error;
 
 @end
 
+@interface NSDictionary (QueryString)
+- (NSString *)queryStringRepresentation;
+@end
+
 @implementation NSDictionary (QueryString)
-
-- (NSString *) toQueryString {
-    NSMutableArray *parts = [NSMutableArray array];
-    for (id key in self) {
-        id value = [self objectForKey: key];
-        NSString *part = [NSString stringWithFormat: @"%@=%@", key, value];
-        [parts addObject: part];
-    }
-    return [parts componentsJoinedByString: @"&"];
+- (NSString *)queryStringRepresentation {
+    NSMutableArray *paramArray = [NSMutableArray array];
+    
+    [self enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
+        NSString *param = [NSString stringWithFormat:@"%@=%@", key, obj];
+        [paramArray addObject:param];
+    }];
+    
+    return [paramArray componentsJoinedByString:@"&"];
 }
-
 @end
 
 @interface ViewController ()
@@ -58,25 +69,27 @@ static NSString *const kOAuthConsumerSecret = @"3fk3tadpigapxrkuz5r3jgp6lamb8zlo
 }
 
 - (void)openCommunityInBrowser:(id)sender {
-    [[UIApplication sharedApplication] openURL:[self fastPassUrlForCommunity]];
+    NSURL *fastpassUrl = [self fastPassUrlForCommunity];
+    NSString *communityUrlWithFastpass = [NSString stringWithFormat:@"%@?fastpass=%@", @"https://c.dev.gsfn.us/fastpass-enabled", [[fastpassUrl absoluteString] bdb_URLEncode]];
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:communityUrlWithFastpass]];
 }
 
 - (NSURL *)fastPassUrlForCommunity {
     NSURL *baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@", kOAuthProtocol, kOAuthHost]];
     
     NSDictionary *parameters = @{
-                                 @"community": @"the_satisfactory",
-                                 @"email": @"qa+1426798655373@getsatisfaction.com",
-                                 @"name": @"qa1426798655373",
-                                 @"uid": @"qa1426798655373"
+                                 @"community": @"fastpass-enabled",
+                                 @"email": @"test@foobar.com",
+                                 @"name": @"testfoobar",
+                                 @"uid": @"testfoobar"
                                  };
+
+    BDBOAuth1RequestOperationManager *manager = [[BDBOAuth1RequestOperationManager alloc] initWithBaseURL:baseURL consumerKey:kOAuthConsumerKey consumerSecret:kOAuthConsumerSecret];
     
-    AFOAuth1Client *oauth = [[AFOAuth1Client alloc] initWithBaseURL:baseURL key:kOAuthConsumerKey secret:kOAuthConsumerSecret];
-    [oauth setStringEncoding:NSISOLatin2StringEncoding];
+    NSString *header = [manager.requestSerializer OAuthAuthorizationHeaderForMethod:@"GET" URLString:[[NSURL URLWithString:@"/fastpass" relativeToURL:baseURL] absoluteString] parameters:parameters error:nil];
     
-    NSMutableURLRequest *request = [oauth requestWithMethod:@"GET" path:@"/fastpass" parameters:parameters];
-    
-    NSString *authorizationHeader = [[[request valueForHTTPHeaderField:@"Authorization"] stringByReplacingOccurrencesOfString:@"\"" withString:@""] stringByReplacingOccurrencesOfString:@"OAuth " withString:@""];
+    NSString *authorizationHeader = [[header stringByReplacingOccurrencesOfString:@"\"" withString:@""] stringByReplacingOccurrencesOfString:@"OAuth " withString:@""];
     
     NSMutableDictionary *authorizationKeyValuePairs = [[NSMutableDictionary alloc] init];
     
@@ -87,9 +100,10 @@ static NSString *const kOAuthConsumerSecret = @"3fk3tadpigapxrkuz5r3jgp6lamb8zlo
     
     [authorizationKeyValuePairs addEntriesFromDictionary:parameters];
     
-    NSLog(@"%@", [NSString stringWithFormat:@"%@://%@/fastpass?%@", kOAuthProtocol, kOAuthHost, [authorizationKeyValuePairs toQueryString]]);
+    NSURL *fastpassURL = [[NSURL URLWithString:[NSString stringWithFormat:@"/fastpass?%@", [authorizationKeyValuePairs queryStringRepresentation]] relativeToURL:baseURL] absoluteURL];
     
-    return [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@/fastpass?%@", kOAuthProtocol, kOAuthHost, [authorizationKeyValuePairs toQueryString]]];
+    return fastpassURL;
+    
 }
 
 - (void)didReceiveMemoryWarning {
