@@ -14,6 +14,9 @@
 		25BFA6501ABC7D8300CF4589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BFA64F1ABC7D8300CF4589 /* Images.xcassets */; };
 		25BFA6531ABC7D8300CF4589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BFA6511ABC7D8300CF4589 /* LaunchScreen.xib */; };
 		25BFA65F1ABC7D8300CF4589 /* FastPass_iOS_Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BFA65E1ABC7D8300CF4589 /* FastPass_iOS_Test_AppTests.m */; };
+		25C2AF151ABCED3200DA5983 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C2AF141ABCED3200DA5983 /* NSDictionary+QueryString.m */; };
+		25C2AF171ABCEE8A00DA5983 /* get-satisfaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C2AF161ABCEE8A00DA5983 /* get-satisfaction.png */; };
+		25C2AF191ABE300B00DA5983 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 25C2AF181ABE300B00DA5983 /* default.css */; };
 		37143FADB9ED722105C2B03B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4F9B576909B9DD05BA5434 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,10 @@
 		25BFA6581ABC7D8300CF4589 /* FastPass iOS Test AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FastPass iOS Test AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BFA65D1ABC7D8300CF4589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25BFA65E1ABC7D8300CF4589 /* FastPass_iOS_Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastPass_iOS_Test_AppTests.m; sourceTree = "<group>"; };
+		25C2AF131ABCED3200DA5983 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		25C2AF141ABCED3200DA5983 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		25C2AF161ABCEE8A00DA5983 /* get-satisfaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get-satisfaction.png"; sourceTree = "<group>"; };
+		25C2AF181ABE300B00DA5983 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
 		36737F3C19239DC05CD6253C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8B4F9B576909B9DD05BA5434 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -105,14 +112,18 @@
 		25BFA6411ABC7D8300CF4589 /* FastPass iOS Test App */ = {
 			isa = PBXGroup;
 			children = (
+				25C2AF161ABCEE8A00DA5983 /* get-satisfaction.png */,
 				25BFA6461ABC7D8300CF4589 /* AppDelegate.h */,
 				25BFA6471ABC7D8300CF4589 /* AppDelegate.m */,
+				25C2AF181ABE300B00DA5983 /* default.css */,
 				25BFA6491ABC7D8300CF4589 /* ViewController.h */,
 				25BFA64A1ABC7D8300CF4589 /* ViewController.m */,
 				25BFA64C1ABC7D8300CF4589 /* Main.storyboard */,
 				25BFA64F1ABC7D8300CF4589 /* Images.xcassets */,
 				25BFA6511ABC7D8300CF4589 /* LaunchScreen.xib */,
 				25BFA6421ABC7D8300CF4589 /* Supporting Files */,
+				25C2AF131ABCED3200DA5983 /* NSDictionary+QueryString.h */,
+				25C2AF141ABCED3200DA5983 /* NSDictionary+QueryString.m */,
 			);
 			path = "FastPass iOS Test App";
 			sourceTree = "<group>";
@@ -225,9 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C2AF171ABCEE8A00DA5983 /* get-satisfaction.png in Resources */,
 				25BFA64E1ABC7D8300CF4589 /* Main.storyboard in Resources */,
 				25BFA6531ABC7D8300CF4589 /* LaunchScreen.xib in Resources */,
 				25BFA6501ABC7D8300CF4589 /* Images.xcassets in Resources */,
+				25C2AF191ABE300B00DA5983 /* default.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25C2AF151ABCED3200DA5983 /* NSDictionary+QueryString.m in Sources */,
 				25BFA64B1ABC7D8300CF4589 /* ViewController.m in Sources */,
 				25BFA6481ABC7D8300CF4589 /* AppDelegate.m in Sources */,
 				25BFA6451ABC7D8300CF4589 /* main.m in Sources */,

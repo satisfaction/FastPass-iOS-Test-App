@@ -1,0 +1,60 @@
+#logo {
+    height: 48px;
+    left: 64.5px;
+    top: 30px;
+    width: 206px;
+}
+
+label#label-title {
+    color: #000000;
+    height: 40px;
+    left: 20px;
+    text-align: center;
+    top: 80px;
+    width: 335px;
+}
+
+view#container {
+    background-color: #fdf3e9;
+    height: 542px;
+    left: 0px;
+    top: 128px;
+    width: 375px;
+}
+
+text-field {
+    background-color: #ffffff;
+    border: 1px solid #F47C30;
+    border-radius: 5px;
+    height: 40px;
+    left: 20px;
+    padding: 10px;
+    width: 335px;
+}
+
+text-field#input-community {
+    top: 148px;
+}
+
+text-field#input-email {
+    top: 198px;
+}
+
+text-field#input-name {
+    top: 248px;
+}
+
+text-field#input-uid {
+    top: 298px;
+}
+
+button {
+    background-color: #F47C30;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    left: 20px;
+    top: 358px;
+    width: 335px;
+}

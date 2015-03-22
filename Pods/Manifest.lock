@@ -13,12 +13,15 @@ PODS:
   - BDBOAuth1Manager (1.5.0):
     - AFNetworking/NSURLConnection (~> 2.5.0)
     - AFNetworking/NSURLSession (~> 2.5.0)
+  - PixateFreestyle (2.1.4)
 
 DEPENDENCIES:
   - BDBOAuth1Manager
+  - PixateFreestyle
 
 SPEC CHECKSUMS:
   AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
   BDBOAuth1Manager: 274574557077abc873fc5688abe8b991e782749c
+  PixateFreestyle: bb8fc8ce1ebc2355852b369a6e2a6f2931c4ed71
 
 COCOAPODS: 0.36.0

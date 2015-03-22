@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-PixateFreestyle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15FFD894FE1607C1C10470AB</key>
+		<key>14CE79F797B2F8E78D478D2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5DF67C71372A4C3F59F08CCE</key>
+		<key>46CD7D9AD26682E93B76435F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6956E4C0C6DAB22047B09A28</key>
+		<key>A1EC64C8E2DFF4D2DA78FEDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D81CDFD3BAA5301E8C35E6F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

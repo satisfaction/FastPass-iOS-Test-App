@@ -7,334 +7,1032 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		054D2DE86DA5C298EC5C7FB6 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CB0ABFA0F46637CB062EDE /* AFHTTPRequestOperation.h */; };
-		0A5405A5B88139430C3784C2 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B39D600EADF0C6DB86BB6C /* AFURLSessionManager.h */; };
-		1C40F9E432F2BACC53924841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD8757A28E94A179C70B9C /* Foundation.framework */; };
-		2095910F499C66A7B634861D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B285EB9C9A025ECA688D44D1 /* CoreGraphics.framework */; };
-		29E047D51DD578A01E0EA6B7 /* NSDictionary+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF6C55A5F50438E2B3C7469 /* NSDictionary+BDBOAuth1Manager.m */; };
-		2B50B3D73A134FA82B5D194B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D581DFECBF69205AC676F598 /* AFSecurityPolicy.m */; };
-		2C74B09A1FAFA91BEC96F969 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 10070151DBEEB2D2C1C7B1EA /* AFHTTPSessionManager.h */; };
-		30BA2AA20AE34D5220D9C487 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD6CE52A0976A9E501A05BF /* AFURLRequestSerialization.h */; };
-		327CA830CA6B5A9948A56765 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC67132C0164158488895 /* AFURLSessionManager.m */; };
-		3B8BDADD59AB75AB9C592706 /* NSString+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E1330B412506A38DA29B46 /* NSString+BDBOAuth1Manager.m */; };
-		3CAE4365D9196BD906A77E20 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B75DC06E7FBCB10557B5EC /* SystemConfiguration.framework */; };
-		47749C7AEE959B5B18FF25AF /* Pods-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66F5ADCF5586864174D0D41 /* Pods-AFNetworking-dummy.m */; };
-		4862BF216AEEE168F53FB6B1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 913FE606A1A03C919FEAC5B8 /* AFSecurityPolicy.h */; };
-		5CD5375E44599FA8F0935EEC /* BDBOAuth1RequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 678ADDE8E3310EF9C6ACE2D8 /* BDBOAuth1RequestOperationManager.h */; };
-		619C2340381BBAFB82BCB389 /* BDBOAuth1RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B9ABEA963006D4D3E4B5F1 /* BDBOAuth1RequestSerializer.m */; };
-		62DC79D127524800CCE2AE6A /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = AF04D5694ED8D8B52034F8C7 /* AFURLResponseSerialization.h */; };
-		6D184D4D8CF48F72D09B9D48 /* BDBOAuth1RequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63F3D6DDBDCBF4CB771617 /* BDBOAuth1RequestOperationManager.m */; };
-		7CEBCB475C999F98CCA4E705 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A6ED6B7E635D5254E0B72A /* AFURLResponseSerialization.m */; };
-		893BCC9998DB8B5D186CA067 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E64FC673C8BFA63455CFE81F /* AFHTTPRequestOperation.m */; };
-		8CBEF220434AE4EDFD7FE057 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 161DA8611E02078D4BBF212B /* AFHTTPRequestOperationManager.m */; };
-		93783AB05D3D07117952C5C8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C701F3EF8C1B4FB0E4AB0D9 /* AFNetworkReachabilityManager.m */; };
-		96CB55D432B0E54E88B7190A /* BDBOAuth1SessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C3BB56CD86B1DD7EF554AC /* BDBOAuth1SessionManager.h */; };
-		9871D7BF7E66BADFE76CDCA1 /* NSDictionary+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2687A34760744ED73E73DA31 /* NSDictionary+BDBOAuth1Manager.h */; };
-		9F66D7AAEFC8CC0189078ECA /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CE485716940118552C3A9 /* AFURLRequestSerialization.m */; };
-		A4525FCAEEBA15AA4EB6891F /* Pods-BDBOAuth1Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F7FE3CFA3C75A19C253601 /* Pods-BDBOAuth1Manager-dummy.m */; };
-		A9B117C04D7CDF07E55D0393 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDB6D64340846923A62CFA4 /* AFHTTPRequestOperationManager.h */; };
-		ABE1F2A3E0B320EDEB7285F5 /* BDBOAuth1SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8091BB57D8C91F964E55EE /* BDBOAuth1SessionManager.m */; };
-		B53BBA39794DA6E79720C189 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77BCB3AF7F2D92D92D271AEC /* Security.framework */; };
-		B5A5936466721EECDDAAC402 /* NSString+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 984AB1813D90C40C8F626038 /* NSString+BDBOAuth1Manager.h */; };
-		B71FBE8B02968EB32D3A8DFD /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2987AB26B49938EEDC545C /* AFNetworkReachabilityManager.h */; };
-		BBBF3E593740E77F8282B162 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9285B1F05CB6EA370E9C0A /* AFURLConnectionOperation.h */; };
-		C8EE16EA52FEA14937C7BC48 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 653FBA4C08831A6F45EB2705 /* AFURLConnectionOperation.m */; };
-		CA3602E0A77C491884A0DCCF /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13094C1C82017529CC18BF8A /* Pods-dummy.m */; };
-		D97682237AB08780B6A816B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991C494BF3A0E8C1470C1A53 /* MobileCoreServices.framework */; };
-		F0EC1840FB6799F67DC943A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD8757A28E94A179C70B9C /* Foundation.framework */; };
-		F79ACD709877B721B581C118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBD8757A28E94A179C70B9C /* Foundation.framework */; };
-		FA1786FEDEE743A097B36E1C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0186F1D169B819114C5F24 /* AFHTTPSessionManager.m */; };
-		FEB67A0DC5E0C0053FE68D67 /* BDBOAuth1RequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0787D9FE54F1BDDE86D0CC6F /* BDBOAuth1RequestSerializer.h */; };
+		001EFFFA930F2B7227733FDD /* PXShadowGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 639201DCD842001A676B20AD /* PXShadowGroup.h */; };
+		008475573B2CBE3C18039997 /* PXUIWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B22159AF53858E2C829D2E7 /* PXUIWindow.h */; };
+		039B461E54B5154D80C1C3D6 /* PXFontStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F98F70C7244FB8F829162B /* PXFontStyler.h */; };
+		043BC870B1CD1B061F4CF1D8 /* PXBorderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA5329AD6AC221FBE30BAC /* PXBorderInfo.h */; };
+		048D3E7F182AEC4FCFBDE76D /* PXShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDC249B9797D54577BD68E0 /* PXShadow.h */; };
+		05B03F9B8884319DBCCBDB5D /* PXUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDA41EE74DAC85326994453 /* PXUISegmentedControl.h */; };
+		05F93FC032907240A997A310 /* PXRadialGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 83495944F26B992CA7D505E0 /* PXRadialGradient.h */; };
+		07FE463E551F60D4D99849C0 /* UIView+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 066E4E4C05BFA706D107AD49 /* UIView+PXStyling.h */; };
+		082A14DFAB03F0EA7333FDAA /* PXUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DE2548B560D34E1D50DFFF /* PXUIImageView.h */; };
+		08D6245CCBFA1D6BFA345A5A /* PXCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 292681006A1AB6B166943231 /* PXCombinator.h */; };
+		09A1A32C695518D9A13AD295 /* UINavigationItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA109D5CA8F9C05CDAA911F /* UINavigationItem+PXStyling.h */; };
+		0AB87F9F2B1E9784DB2013CF /* PXURLMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA978AD006E899659DA6BE9 /* PXURLMatcher.h */; };
+		0C3C25B9F0888AB35D35B016 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C6C2C493D60D15C61B743 /* CoreGraphics.framework */; };
+		0C42AF012E867E247CEB602C /* PXInsetStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5F6BDBA1CB75470723635E /* PXInsetStyler.h */; };
+		0C44E41C8FD457D008B5FDEF /* PXSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8879BA4B2D11C5195BFAEB9E /* PXSelector.h */; };
+		0E1E298CB3499DE07DACB017 /* NSArray+Reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F061A3531D13E98E8B1D6D /* NSArray+Reverse.h */; };
+		11E720B9514B3E592DA755A4 /* PXUIPickerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDADD623E585D3F7E781EE1 /* PXUIPickerViewDelegate.h */; };
+		1201A57F6285841B5FD15580 /* PXStrokeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 259592ABFDEC347FB18D3A13 /* PXStrokeGroup.h */; };
+		139F2E93B12FA2E1C4184467 /* PXRuntimeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C14E8CC40FCB54E9D008338 /* PXRuntimeUtils.h */; };
+		1402C660200CC50894EFE1B3 /* PXIdSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 67924501B67DF552B579F953 /* PXIdSelector.h */; };
+		15DE1E9108C527E3791744F6 /* PXUITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D530B2F8F6A65DC73CDA71B /* PXUITabBar.h */; };
+		166061E31A92881813E8A117 /* PXShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 4408A67D021BFE72D7F537FF /* PXShape.h */; };
+		16A8150D9AAD4A18D72AE810 /* PXEllipse.h in Headers */ = {isa = PBXBuildFile; fileRef = 98C00005C62B90439A86423E /* PXEllipse.h */; };
+		17229FE8FB8A209EBCF34870 /* Pods-PixateFreestyle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B1021D5537BD71D40F3E9 /* Pods-PixateFreestyle-dummy.m */; };
+		178160D0F2A96CBCC6098B41 /* PXArrowRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F2CC661928FC83BAAC8B0E /* PXArrowRectangle.h */; };
+		18B1354076818A3F2444B01E /* PXViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0443BA0D72993B52610ECAF4 /* PXViewUtils.h */; };
+		19FDDCB312BA9BEF8A22F095 /* PXStylerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0A4980AA2AB7D1CDA18299 /* PXStylerContext.h */; };
+		1A2AB84F1D000B91CD11BD49 /* PXUINavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D57EC93FC75807B717EDB60 /* PXUINavigationBar.h */; };
+		1C00B0818D8C11EF80CC1799 /* PXBarShadowStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B06E3B553C1703CAB6587 /* PXBarShadowStyler.h */; };
+		1C199C345712971DF9586C79 /* UIBarButtonItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2889EF97B9657B1EAEA7C96B /* UIBarButtonItem+PXStyling.h */; };
+		1C9141E298222B1AB328E7F8 /* PXKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BEED66E1E73B2FA3B5CCD8 /* PXKeyframe.h */; };
+		1F575A3C7C480FF8D3845C90 /* PXNonScalingStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0304E47716A7F559DA747339 /* PXNonScalingStroke.h */; };
+		2293653EF1AE4ECFE613E4B9 /* PXPseudoClassPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB8DEE288DC49BB4A846D9C /* PXPseudoClassPredicate.h */; };
+		22EFF4058B55F44C5D6C36FC /* PXShapeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D85F7AD32A84AF967441636B /* PXShapeGroup.h */; };
+		23205E38B6471E1ADBA55EE2 /* UIView+PXStyling-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8291F9E2CC6E4B62B0CB94 /* UIView+PXStyling-Private.h */; };
+		232D548A091E3B6AD7BCFC0F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3C79F1D9977EB80F1B9B8A /* AFURLResponseSerialization.h */; };
+		236D9ADA5DC03419A7C30C26 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B031543858D35A2922CD3D /* AFURLConnectionOperation.m */; };
+		23E10FF10B03D80D0212D5BB /* PXMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 610735745E00EAAD7B687819 /* PXMath.h */; };
+		2414E6703D4B828472F5F795 /* PXRenderable.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC811684E7C64FE23BA1810 /* PXRenderable.h */; };
+		255A12E163B3C28F76C2376C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF95C8960B20F64A95183 /* AFURLResponseSerialization.m */; };
+		26B5B507D47881F48A98B94B /* PXUIPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2463122B25825950FF0155B6 /* PXUIPageControl.h */; };
+		26CF73442DB74C039FB6302B /* PXBoxShadowStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = F6078F4F81D0CE2F019CB6DA /* PXBoxShadowStyler.h */; };
+		270303833CD5C6AA89618FE2 /* PXUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = AE33BCD5FA21B46B8C2647CA /* PXUISwitch.h */; };
+		27996DF94B7BE51FE4B1F8FB /* PXSVGLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCC5F2DD261FEB79C2C02DD /* PXSVGLoader.h */; };
+		2870C73E29C33C783E752045 /* PXLexemeCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6EBD0C2EB7A0055F5C7837 /* PXLexemeCreator.h */; };
+		2A4FDF2CA5AFEFE64EFE76CF /* PXStyleTreeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7077C0E60522DFA212577ACF /* PXStyleTreeInfo.h */; };
+		2BB35C1F2135ED84DD8123CF /* PXUITableViewCellContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = A32BB68CF17C32E39FA0C118 /* PXUITableViewCellContentView.h */; };
+		2BC74225C2856E58D310F34A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495187F7C573CE9A7421C2B /* AFURLRequestSerialization.m */; };
+		2C81ACCD8F2A1A13B449CD6E /* PXMediaExpressionGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E43426F3A03A83AD203660 /* PXMediaExpressionGroup.h */; };
+		2D8AED5CB2A52A68F5A50A0A /* PXMPVolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3723FDDFF7B9529D87F41 /* PXMPVolumeView.h */; };
+		2E113ADC43B676E21084213E /* NSDictionary+PXCSSEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 952ED65115BCA5347EC14279 /* NSDictionary+PXCSSEncoding.h */; };
+		2E16953DF41B9F10A33A0BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3DF1922D908E1C5B29BB3C /* Foundation.framework */; };
+		2ED965EAD29C1F0EF69899CC /* PXUIToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0A689842DC71B1DF710EEE /* PXUIToolbar.h */; };
+		2F34337F503ECAD2FA00DFFE /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3797C3178750B83F2DC64DBE /* Version.h */; };
+		3001A93923BCD51D8FCB8642 /* PXStylerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 784058175078414A65F15AA1 /* PXStylerBase.h */; };
+		3197FAB516B0E4AAD9E72DCC /* PXForceLoadVirtualCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A89411585711E737F1E749D /* PXForceLoadVirtualCategories.h */; };
+		337B0E3FF06FEA916386A8C7 /* PXAnimationStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C7B64452984C1BFF01A5DC /* PXAnimationStyler.h */; };
+		3476EEEEDACBA7660D1681FD /* UIBarButtonItem+PXStyling-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F7BC284802DCD3E1C5DD85 /* UIBarButtonItem+PXStyling-Private.h */; };
+		351D8A9254121C6BB0C5ED03 /* PXColorStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = F69CBD6FB0AA428C7D911C39 /* PXColorStyler.h */; };
+		3544C4D8842D2980D916D777 /* NSMutableDictionary+PXObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BA292F222A3CCE2E3277A6D8 /* NSMutableDictionary+PXObject.h */; };
+		357A473F606506677FA2318E /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1D6AC57EA1E6FF2840434F /* AFHTTPSessionManager.h */; };
+		36AFBE2C0CD908A770F0216C /* PXPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 509266A5C0A4A46265A2B9EE /* PXPolygon.h */; };
+		37584FFE880F93981EDBE15D /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D282C398EED9909BEF6DB974 /* PixateFreestyle.framework */; };
+		378B84A25584B36DF9287C00 /* PXUITableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A00FFE2005B584ADE96D965 /* PXUITableViewDelegate.h */; };
+		37AE78CAB90822165283470E /* PXUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 515B2997C525B4F7A201AC03 /* PXUIButton.h */; };
+		39B569F88FC3316EC41B3EC7 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5C0B8A6ED223D7FF3BF080 /* AFURLConnectionOperation.h */; };
+		39F9E2B0FBF68DE28B8F12E1 /* PXUIActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 805D39EBBF8B80444D2D29AB /* PXUIActivityIndicatorView.h */; };
+		3B68F5BF9338DFD8EAF2A1E7 /* PXValueParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1FAABC9F98E4DC6BD53003 /* PXValueParser.h */; };
+		3BD8F1D35E5752D284AA711F /* PXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 34AD57D699960D3CE4EBFF6B /* PXPath.h */; };
+		3D1BC8CF0510719BAB5B8DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3DF1922D908E1C5B29BB3C /* Foundation.framework */; };
+		3DCBBD4918FF81B3A838CBFF /* PXUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF2B54D52034E038A127628 /* PXUITableViewCell.h */; };
+		40958D1D0FDCAB2344A72A0E /* PXPseudoClassSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = B52A1BAC0DA3977EA9F2F36F /* PXPseudoClassSelector.h */; };
+		40BF38FCC88083F06C482A6B /* NSString+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC09B4074D89805A1EB5211 /* NSString+BDBOAuth1Manager.h */; };
+		4141184F04010BABB67B017B /* PXTextContentStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D8B417A748B3B75A517935 /* PXTextContentStyler.h */; };
+		4293612839F3287F09BFC609 /* PXOffsets.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AEBAAB80E1841E1A322891 /* PXOffsets.h */; };
+		432F801BFEE5C4B1C7185BDA /* UITabBarItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A48C9F2DE969D9719478CF4 /* UITabBarItem+PXStyling.h */; };
+		441072BAE04315210B641488 /* PXForceLoadControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D550A991EE26DC29C61624D /* PXForceLoadControls.h */; };
+		4891B955CBEC8441C2B28116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3DF1922D908E1C5B29BB3C /* Foundation.framework */; };
+		4BA7DA5997A8F5F89106D20F /* PXFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E3C72C74B8B44685168D71 /* PXFileUtils.h */; };
+		4F16FDFAEA0E90F0665FC4B9 /* PXDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = ED40401B123F1DD19B903CB2 /* PXDeclaration.h */; };
+		4F544FD58B05C42CB43AA44E /* PXUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F49B5548EE537BA80CB0F764 /* PXUtils.h */; };
+		4FCE19A1EF9DD61DCF916DDE /* PXBoxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D340CC8DD7B394B38E1D6958 /* PXBoxModel.h */; };
+		51448BEC1E5195E3D0870F0E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EDC6CD80229ED2372B37D5 /* CoreText.framework */; };
+		51BE095EAAB78E1ADABF1BA2 /* PXForceLoadCGCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = BE99C652CAB6B51CCE2B4915 /* PXForceLoadCGCategories.h */; };
+		52E976DBDA4D283AA5D690F2 /* PXTransformStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EDC11D63D7746FE2E9B29B /* PXTransformStyler.h */; };
+		56F78C93E8C56F753747E93F /* PXStyleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ED85B4BD84E81D6ED4A0BCA /* PXStyleUtils.h */; };
+		572D24D05B2EB921ADE17583 /* PixateFreestyleConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C43FA0F4B4FCA6CAB7477E5D /* PixateFreestyleConfiguration.h */; };
+		57902AE8365CC1E67F5EA23E /* PXDelegateLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C5F2A9C63513C327B7F41D2 /* PXDelegateLogger.h */; };
+		58C919FAC528811A49EA7785 /* NSScanner+PXFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = B951B44FA9C40F55E1E6D448 /* NSScanner+PXFloat.h */; };
+		5A6907365D39CDEC6568D9AC /* PXMKAnnotationContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E98ECADB00E17295CE5AF0 /* PXMKAnnotationContainerView.h */; };
+		5B8089B6D142F169A3E135F7 /* PXForceLoadPixateCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 2299B97FBD50B2EE9CD0FEEF /* PXForceLoadPixateCategories.h */; };
+		5BA898871E89BB78FAF88FA4 /* BDBOAuth1RequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CB9CA8525704CFA57F1C5A /* BDBOAuth1RequestOperationManager.h */; };
+		5C0830BBBED62CFC285B3A6C /* PXAttributeSelectorOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 09077A1241D0B87AA8661DA9 /* PXAttributeSelectorOperator.h */; };
+		5E0DA3ED836F6B02680C5EF6 /* BDBOAuth1SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 837E4B7B793FC871F1059ADB /* BDBOAuth1SessionManager.m */; };
+		5E107D8D24E2AE466F1E0C7C /* PXStylesheetLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E374826350453AA4C0275C /* PXStylesheetLexer.h */; };
+		5F702D1A6A1F359383BB6EB6 /* PXUITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C786A26C8126DDF024D3A6BF /* PXUITextView.h */; };
+		5F7CAD2E325D6ED81CBB9525 /* PXShapeStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF85560AE1E550FADBD7006 /* PXShapeStyler.h */; };
+		5FD521AD3B461BB69F5212BA /* PXText.h in Headers */ = {isa = PBXBuildFile; fileRef = E6FCD07D0C570ACE6C860158 /* PXText.h */; };
+		60A4D53311DFFF37E9CB3DD1 /* PXVirtualStyleableControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BA4A4920B0E655DED06747 /* PXVirtualStyleableControl.h */; };
+		61B6158D83C228B1D266E374 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F97E468DD00F51BB9C1C1F6 /* UIKit.framework */; };
+		61E2ACBBD414FE7D5FB5AF4C /* PXUITableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B71E529D053495E37F7B25 /* PXUITableViewHeaderFooterView.h */; };
+		624DBF6E291E0D1BCEE0BB55 /* PXPaintable.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6EAFB2DD0B267F7BFC1DD2 /* PXPaintable.h */; };
+		64C9374761B8294825E1D94D /* PXUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA262FD98E01F3C971E8E32 /* PXUILabel.h */; };
+		64E8256ED994A413E9DCE0AB /* PXFontRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F0D727B0E27EC30A534FCE /* PXFontRegistry.h */; };
+		65DD500E690B0150257E11D3 /* PXAttributeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0656AB72D57101BB2AD496 /* PXAttributeSelector.h */; };
+		66BD7015D2273B9622837619 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7D651DE68062B1F0AC841 /* Pods-dummy.m */; };
+		69B812D36BD521E77A276105 /* PXPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CCD1AFF5A1EB419CD348ED /* PXPaint.h */; };
+		6A072ABFC99CA6B78362E2A6 /* PXTitaniumMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D5039C048A5B6E08120B1743 /* PXTitaniumMacros.h */; };
+		6A16E0F4FBC4205249022FBA /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C56CD3DECF5E49267A1AF02 /* AFNetworkReachabilityManager.h */; };
+		6C841522482C22B96B5630E8 /* BDBOAuth1RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCF3EF45255D4BA3348AEC /* BDBOAuth1RequestSerializer.m */; };
+		6D70552A395811B31FF55803 /* PXUISearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BD7CD03C624DE83B2457EF /* PXUISearchBar.h */; };
+		6DD74BD5DD8D457B5E041912 /* PXGenericStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A93EB1FD09F3E2BE45A185 /* PXGenericStyler.h */; };
+		6F56003EE9166A991600C2F9 /* PXDescendantCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = E321E6DCBAFA619D70D98C76 /* PXDescendantCombinator.h */; };
+		703DE101E9DA51418531713C /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 12065DBD706C297ACA605FC0 /* DDAbstractDatabaseLogger.h */; };
+		70993BC1B9F020F3588225A2 /* PXShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E24921957EBB3036CC09E5D5 /* PXShapeView.h */; };
+		70A9D3FE0589148115B84096 /* PXImagePaint.h in Headers */ = {isa = PBXBuildFile; fileRef = CD37BB60A2F6EC490E869821 /* PXImagePaint.h */; };
+		7114AC9878D16F3226357257 /* PXLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C15AE3058C34747BD98F49F7 /* PXLog.h */; };
+		71EBEE4C0512A97597A91126 /* PXUICollectionViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 21FD3B1ABFEEFD218808B893 /* PXUICollectionViewDelegate.h */; };
+		72609049751793B6F71A5DB5 /* PXAnimationPropertyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 810D281D7DC3EA1815923BED /* PXAnimationPropertyHandler.h */; };
+		72C7225DFEE696E6BC00010D /* NSObject+PXSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = C910A551456F3EC2C74EC58C /* NSObject+PXSubclass.h */; };
+		7311EB46ACA91382625F620A /* PXImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFD397E48B013EFC5EB00A1 /* PXImageUtils.h */; };
+		73E5863592831C3F3415EDFF /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A60FBE8DFCE525D32747B86 /* DDFileLogger.h */; };
+		7542BA54CEA9B2DE208D7B70 /* BDBOAuth1RequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF17F3DAA8F8D43629A1A8B /* BDBOAuth1RequestOperationManager.m */; };
+		775B50A27BADA749DD2E58D9 /* PXRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EF1AB25C7501FD249EB887 /* PXRectangle.h */; };
+		77C646926A70DD5B0CBD25BE /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1B950CCE81E0DCD620D0C /* AFHTTPSessionManager.m */; };
+		77E6D0EA182E10AEF30E7F8B /* PXMediaGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 9417CD7ACA0EFC7BD84D7172 /* PXMediaGroup.h */; };
+		78B5695F6FBA32579E554C09 /* PXMKAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = C60B298DF2FAC1921BB6BF6D /* PXMKAnnotationView.h */; };
+		79FD7A431E53B4E0223CDE59 /* PixateFreestyle-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7101BC708ED16311ED5812 /* PixateFreestyle-Private.h */; };
+		7A4078C4C050ECB09231AB54 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BCBB2FD3CCBBD1776A27A6 /* AFHTTPRequestOperation.h */; };
+		7BB266E3A94AD607312F0F76 /* BDBOAuth1SessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C8CCCC63D656E23C911998 /* BDBOAuth1SessionManager.h */; };
+		7BC664E0D08118A5E35D5B7E /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1852683F6B692791474CB664 /* DDLog.h */; };
+		7D62386F9021B74EDCED76EA /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D462744CFD568EDE5CB74877 /* DDASLLogger.h */; };
+		7EBC9DD01B67FD5B73E8A659 /* PXCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7982E3FC8A02F5FD40598A /* PXCircle.h */; };
+		7EEC2A73A30DF59E30586FB2 /* PXTransformParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B6776BBAC0B265EE9F5A11A /* PXTransformParser.h */; };
+		7EF74B915A8552D01B9B3131 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CB4FE3DE19B0C697BC1F1B /* AFHTTPRequestOperationManager.h */; };
+		804977B917BD767E72DEB179 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351BD5349BCE0B420FA37774 /* Security.framework */; };
+		80FB922D50F28AF54ED0AB0A /* PXTransformTokenType.h in Headers */ = {isa = PBXBuildFile; fileRef = D30BD9716254B600B7BAFCAE /* PXTransformTokenType.h */; };
+		812F85A12F3B1598A574D20E /* PXUIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39936DDBECB98360510CB21D /* PXUIProgressView.h */; };
+		82B6157781B4D446BFCAAFC1 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E43870B86D689C1202D3E3BF /* AFURLSessionManager.h */; };
+		83BCF68E95CDAD90B5841D1A /* PXUIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8A47B426DB9836E03E7206 /* PXUIScrollView.h */; };
+		83DE1ED2620C7E1D7595D3C6 /* PXGestalt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5A6ACB50DADA79A4002ECE /* PXGestalt.h */; };
+		8571B3BE8559C809BB87711B /* PXUIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6352DAFA345E54AD69D9ACB1 /* PXUIPickerView.h */; };
+		86105B6D0BE7E516AF3B2D4D /* PXRuleSet.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC7171A6EB9E72AFF82AE2F /* PXRuleSet.h */; };
+		86E4C4F0E7F8D4F099242B48 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9C89C6476E0078E6398AD1 /* DDTTYLogger.h */; };
+		87AACB755FAC21DB76033823 /* PXNumberMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DAEBFD89A0039A1D59655C /* PXNumberMatcher.h */; };
+		87B64A8C0A65B03D4290E15D /* PXStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = 097A9D136FBE783C42DCDF7B /* PXStyleable.h */; };
+		8EE988B263A6E3FE2332E5A4 /* PXLayoutStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 13835ECA401328A6C0885194 /* PXLayoutStyler.h */; };
+		8F9592AFD0A6E53CAD6C1ECA /* PXKeyframeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = D152CA262A5FB197D8BE7CD4 /* PXKeyframeBlock.h */; };
+		8FFA3A4B0847A35D11F3FB8C /* PXFileFunctionLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F86ED673A19AA39D01D589AA /* PXFileFunctionLogFormatter.h */; };
+		9037A317EC2E7D151CF8A45B /* PXPseudoClassFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CBD6AB342E46601A2E1423 /* PXPseudoClassFunction.h */; };
+		9150DEB82958EE3AE24B1786 /* PXProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D5503B16BC729631195E5E6B /* PXProxy.h */; };
+		91DDF9AE8625545DA1478B90 /* PXStylesheetTokenType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAAA61F063B1FA09D35BD66 /* PXStylesheetTokenType.h */; };
+		933477E477885733D1C4729A /* PXShapeDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 88015190274C3FFAFBF59DBB /* PXShapeDocument.h */; };
+		93C2F74897A588CCDEF96F2A /* PXNamedMediaExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = BD934F79A4E4B7B6405E0D75 /* PXNamedMediaExpression.h */; };
+		9406A2DAD1845B09FBF3EC6E /* PXStylesheetLexeme.h in Headers */ = {isa = PBXBuildFile; fileRef = 45364E464E2835960A00D839 /* PXStylesheetLexeme.h */; };
+		946707C89CC0ABD2D0A42725 /* PXChildCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EAF5C7E43739E8D13BED98 /* PXChildCombinator.h */; };
+		94974A633249D421D5A8AAB1 /* PXShadowPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = 432CE393357E1BD55F3B5619 /* PXShadowPaint.h */; };
+		96E80FD82B2F5FEB632B3E0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C6C2C493D60D15C61B743 /* CoreGraphics.framework */; };
+		9764594345A942AE9C5C3425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3DF1922D908E1C5B29BB3C /* Foundation.framework */; };
+		978C0D994E988013AFFBBE59 /* PXTransformLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = D35D6B6AA25D392DB0AA1B59 /* PXTransformLexer.h */; };
+		99D99343F5A51AA2E2BD9921 /* PXSolidPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = C375FBF207816C323DF1B59A /* PXSolidPaint.h */; };
+		9C702D47A847120406A19ED6 /* PXCombinatorBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6042307B0931152B048A9F /* PXCombinatorBase.h */; };
+		9CC6EB911858D982AC7081FD /* PXStylingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF9D424788E01EF5ACEAA94 /* PXStylingMacros.h */; };
+		9F728ECD0E6A6495C5A9FCCE /* NSDictionary+PXObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C72EE0AD31F40F7CD5B5750 /* NSDictionary+PXObject.h */; };
+		9FEDBBEA27480E0B9E5BFD9D /* PXMKMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = B34314524AC2401A2A61AFF5 /* PXMKMapView.h */; };
+		A019C7DD7AE0D5170BAD2921 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 193D84F348CF47D3EAD8A364 /* AFSecurityPolicy.h */; };
+		A028C5CB4FAA92094D157A7C /* PXSiblingCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = BECDCA16DF7C61BD4F5F90D0 /* PXSiblingCombinator.h */; };
+		A3D944848BD71C25512CFF05 /* PXUICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDA299EE37EABC1B5730ECE /* PXUICollectionView.h */; };
+		A4127F0E8860EEB14BF76699 /* PXNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3FF3C693EE7B2432FC1408 /* PXNotificationManager.h */; };
+		A8BCE3DDFA4B93ECCD077851 /* PXUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A889BA328BDA69FB134E09E /* PXUIView.h */; };
+		A9CB5586668668CA314B01B0 /* PXUICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC24DA3948833E029EE1368 /* PXUICollectionViewCell.h */; };
+		AB88A3B82C61EABF7949A458 /* PXDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E921B99750A3B1C2EB72E4 /* PXDimension.h */; };
+		AC5545BB1878232195806DF6 /* UIColor+PXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB0EE772D65C042A71B683 /* UIColor+PXColors.h */; };
+		AE0F8586668293F90185AA01 /* PXGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 23942D9FAB704E12B246A790 /* PXGraphics.h */; };
+		AF2A7BADD5ACCE6EA77BD991 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 837DAAA84E82B5E465122483 /* AFSecurityPolicy.m */; };
+		AF83169EEC0F22090AB847E0 /* PXDeclarationContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D56D5317B550F3B2DAE2F12D /* PXDeclarationContainer.h */; };
+		B10CF75AA8C01C6F494B4A12 /* PXUISlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 38272A3625C90FBE85F40317 /* PXUISlider.h */; };
+		B193AAF1A4E606BF6CF4D7F6 /* PXTextShadowStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = D503E8877CC3A62D2FA37358 /* PXTextShadowStyler.h */; };
+		B3177105D16172142E298E29 /* PXArc.h in Headers */ = {isa = PBXBuildFile; fileRef = A742B9CAA8564099B7FBD81C /* PXArc.h */; };
+		B34294A0B6DE148EA4BC2731 /* PXBoundable.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EAD5B58933DAF4988DC66C /* PXBoundable.h */; };
+		B76C566E52F505DBF1F4A2AD /* PXStrokeRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = C57BB822C58FEBD6374E357A /* PXStrokeRenderer.h */; };
+		B83F68AAD234A9A4CCAC417A /* PXBorderStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = E1027691B87F50C9BAC4E873 /* PXBorderStyler.h */; };
+		B8BF417EDE5FF956C2773B2E /* PXUIStepper.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C730D94B878EB60D97F52D /* PXUIStepper.h */; };
+		B9032ACA95C205B8F4326078 /* PXEllipticalArc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FCFC5EE4EA454F76B4684DB /* PXEllipticalArc.h */; };
+		B948DA40C60A7A995B41BFA9 /* PXNotPseudoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DB893DA3553D5BAE2EB8E0C3 /* PXNotPseudoClass.h */; };
+		BAC340D2123D19F66CDE40E8 /* NSMutableArray+QueueAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EF56FA36D8440BEB1225AE33 /* NSMutableArray+QueueAdditions.h */; };
+		BB08A2BED9818E07E6A65670 /* PXUIActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7E17448BA568A40251B1FB /* PXUIActionSheet.h */; };
+		BBC93A60747AE4D1A052750D /* PXFontInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8805E57E51693CFD1DDA29EC /* PXFontInfo.h */; };
+		BC559FC553BF9A6B2465B467 /* PXStylesheet-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B385424F8D47351B9E8763 /* PXStylesheet-Private.h */; };
+		BC61F693B7CDB41216710825 /* PXLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FDC3D247783C8E3744494E /* PXLine.h */; };
+		BC720D4FF2C80EDEB11910AD /* PXCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8DE80A531531B54F56B243 /* PXCacheManager.h */; };
+		BD6951F90C53904D96051BB1 /* PXTypeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FC4CA12F9FEF3493485EAF /* PXTypeSelector.h */; };
+		BDB02A5996785CF57471569D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766E41F7653D8D0CBF0CEDFB /* MobileCoreServices.framework */; };
+		BDCB577D018D00E52B78460E /* PXStrokeStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = BE49A4349A4FC311413DB742 /* PXStrokeStroke.h */; };
+		C0E15CE6A8C6D058F689FC15 /* PXUILayoutContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCB768AE9A3758E663F1F25 /* PXUILayoutContainerView.h */; };
+		C1EFCB1E5562B340B49906ED /* PXUIWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8DD05F1E6522E544A66E74 /* PXUIWebView.h */; };
+		C38F288C01376A28C1805747 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 974A7C989B9FD9AEA79F0883 /* AFURLSessionManager.m */; };
+		C4A36151C7C9F9DF4C7E7B5F /* PXStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DCC8DCA37BDCB6960FEB49 /* PXStyler.h */; };
+		C4DC08A71ABE87C56AD79231 /* PXPaintStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D7B9B87E8EB91A1ECA3D0F /* PXPaintStyler.h */; };
+		C4F20E354F1D69BE196B20D3 /* PXClassUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1461741981CBE37EEC5F2D8B /* PXClassUtils.h */; };
+		C5F870701708479E20599B8F /* NSString+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91340E764C027F004F0C0E7F /* NSString+BDBOAuth1Manager.m */; };
+		C6997E89A1EEC976C7E36451 /* PXAttributedTextStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 989908E31AD217BF3FF3A18A /* PXAttributedTextStyler.h */; };
+		C6CAF3861ECD82AC1467B071 /* PXFillStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = AB047D27F3CE7A6B6ABF01D6 /* PXFillStyler.h */; };
+		C6EF498F3BF92F8C226A557C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62525EFAAF2796E4977D88E0 /* AFNetworkReachabilityManager.m */; };
+		C7C39911B932EE3AAFDF4583 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C21DE21A5CB34912BE1BAF42 /* AFURLRequestSerialization.h */; };
+		C8A8F4C83C134C65F206DCAF /* PXAdjacentSiblingCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 073A9283A64DBF66B04B4292 /* PXAdjacentSiblingCombinator.h */; };
+		CBC6E7EE56AF564C0C9871A6 /* PXAnimationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D63FB78FE47509E394DBAE51 /* PXAnimationInfo.h */; };
+		CC9DD694A984770129437115 /* PXLinearGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A6AB0CC9A80C2BD7DE617F /* PXLinearGradient.h */; };
+		CCF421892464CAA8CD92D94C /* NSDictionary+BDBOAuth1Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2602B2604BF4FBED96CD6681 /* NSDictionary+BDBOAuth1Manager.m */; };
+		CD4DCB6BE96DD41966F9B1E3 /* NSObject+PXClass.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DEC4F78420B6CADF23A738 /* NSObject+PXClass.h */; };
+		CD979C195B7CA9D353A86153 /* PXGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4813E470A0ECEB73C5CACB /* PXGradient.h */; };
+		CEDE7AC9126FBD1410EE3191 /* PXTransitionStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5511C151ADB24A7CA16A6D9D /* PXTransitionStyler.h */; };
+		D0145B655454182CEB82F66B /* PXStyleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDEE07B22092D43C248A898 /* PXStyleInfo.h */; };
+		D34CB20BBD6B4F6A77A7A10F /* UIBarItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CB1FA343A5199ABFCBCDD1 /* UIBarItem+PXStyling.h */; };
+		D3C489AC21A5D9B9A61F2A21 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354DC163B9CDC33AD677D71A /* SystemConfiguration.framework */; };
+		D43968FDFED421B9C6C1AE42 /* Pods-BDBOAuth1Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFDF5CD10C0C691260DC3E7 /* Pods-BDBOAuth1Manager-dummy.m */; };
+		D549BDB493DB11D18D9ACBD3 /* PXStylesheetParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B84CCF7851557DC17CCA699 /* PXStylesheetParser.h */; };
+		D57881A075D6CA5600D9D225 /* PXFontEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBBFC49DA13D3C401DE23CF /* PXFontEntry.h */; };
+		D6F4146B4508BED415D4610C /* PXMediaExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = E2934772F80298E4D57DEC7F /* PXMediaExpression.h */; };
+		D81116B31E97CD5815C5E35A /* PXMacrosCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F14EA8528540A8AEAC146E2 /* PXMacrosCommon.h */; };
+		DA3F441FE1F8241C07914DDB /* objc.h in Headers */ = {isa = PBXBuildFile; fileRef = B4FCC234DE5F2C13F26EE9FD /* objc.h */; };
+		DA7CD22D864C1C9AE75E1EDC /* PXUITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B5EDDBC92793DC6DA57389 /* PXUITableView.h */; };
+		DB5F82C331BC56FB90339E4E /* PXStylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9786090799E3CDF12F126671 /* PXStylesheet.h */; };
+		DC95D38978E55AFD3117BC0D /* PXTransitionRuleSetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E366C7E7C5B5607E7DCCB6 /* PXTransitionRuleSetInfo.h */; };
+		DE176C8A2D9CA837AA5EC70C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A706435926FE64670E093653 /* AFHTTPRequestOperation.m */; };
+		E1F37ED22BED97A81EDC9682 /* PXNotificationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E96774C7B3F7BEBFC33190 /* PXNotificationInfo.h */; };
+		E24DBFE2234C0C20700E9AF4 /* PXPatternMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 636581D2480D5A5DE179301C /* PXPatternMatcher.h */; };
+		E2B3BAA03AA861874897873F /* NSDictionary+BDBOAuth1Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4D7E570F0D487E86813A4D /* NSDictionary+BDBOAuth1Manager.h */; };
+		E2C8C06C251C53B6A59FFE4B /* PXClassSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BC1E80AB90938DB82D9615 /* PXClassSelector.h */; };
+		E2D687050E3B1F375B03C80D /* PXLoggingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB88FF9A60F25C59B0F545E /* PXLoggingUtils.h */; };
+		E4CC17E46C1C45C2B71146F9 /* NSObject+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 231DF0C35ED6566DDCC2BD4C /* NSObject+PXStyling.h */; };
+		E61BF6074BFEB31CB870C7B8 /* PXOpacityStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0287516B44D1E7FB86CF0EE7 /* PXOpacityStyler.h */; };
+		E651DD9FB0569A3D545BDA71 /* PXUIRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2BDE912B8AD04EFD80141 /* PXUIRefreshControl.h */; };
+		E6B4E9C93D031F23E3B9A7F8 /* PixateFreestyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 834CBB55849D783C82A3BAA7 /* PixateFreestyle.h */; };
+		E7373555C25299BD8531F747 /* PXSourceEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9565AC40EBF5C7D981C24B96 /* PXSourceEmitter.h */; };
+		E7868F5A82327F5E30E5A936 /* PXPaintGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = F07F8888499618D3658F1BF6 /* PXPaintGroup.h */; };
+		E7D8D19E4930842AD6C49239 /* PXVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 918A727E4088CE93C8AD1F48 /* PXVector.h */; };
+		E8F1FE38F2C3B9A3D9AEF38C /* PXCharacterMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BAC26D6838DFFA310FA587 /* PXCharacterMatcher.h */; };
+		E8F34099D95AE2503320B364 /* PXBarMetricsAdjustmentStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D6BAB04436EF9747F884AF /* PXBarMetricsAdjustmentStyler.h */; };
+		E99CBC77AC185CAFD22D77F9 /* PXFileWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EEBF49901F6FD92D8C907931 /* PXFileWatcher.h */; };
+		E9B5443941265695B1BD4383 /* PXVirtualControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 23BACB8E6B63F013492F8336 /* PXVirtualControl.h */; };
+		EC77E18B96D059CF2394F92C /* PXUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 75324E037862337E324801C8 /* PXUITextField.h */; };
+		ECA3C1CA5A2C09860A4320B7 /* PXWeakWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEF600E96730E60BB93EA6A /* PXWeakWrapper.h */; };
+		ECC6B972010A9AFF9EC0FC66 /* PXValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E20B12042DD6DE42352D95C1 /* PXValue.h */; };
+		ED443547AC5F260F9616AFE1 /* PXSpecificity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6D7EFE0FAA2DB0AB67697E /* PXSpecificity.h */; };
+		EE13EECE011DFB27E724F1F5 /* PXSourceWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1A7EDE3EF69D972B4E98EA /* PXSourceWriter.h */; };
+		EFD9A2804CD8A2603F129C17 /* BDBOAuth1RequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C1EBD26060953D03D7194F /* BDBOAuth1RequestSerializer.h */; };
+		F1648F5BDF17390C8761778F /* NSMutableArray+StackAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5BE47843B6E32799CF7202 /* NSMutableArray+StackAdditions.h */; };
+		F370434A2311E8A46306531C /* PXPie.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1786B03160F2E8EFC8AD60 /* PXPie.h */; };
+		F539BDC8F4DB866998E30C4E /* Pods-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B3174E3B6F669F782C8CE /* Pods-AFNetworking-dummy.m */; };
+		F5D82D5FD0FD1457CB71E513 /* PXKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A785DC36F930DA35A4BE70B1 /* PXKeyframeAnimation.h */; };
+		F6D3F0ADA1578038C085AFB4 /* PXForceLoadStylingCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E44B642085A1882EC555C73 /* PXForceLoadStylingCategories.h */; };
+		F8CB8C9C18104B82CF12FE98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42651662424B6264828940C2 /* QuartzCore.framework */; };
+		FA40F46EF54800BA4CEBC87C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9D4A921E3964555266D28D /* AFHTTPRequestOperationManager.m */; };
+		FA8EECDCBC73D38BCD7323B8 /* PXWordMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9103FE18C3EF53998C2A9C /* PXWordMatcher.h */; };
+		FB1D411A56A0D660AB60A3AF /* PXStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = E840339BD717898613AE7891 /* PXStroke.h */; };
+		FC363FE1014DA4C82EE3F64C /* PXUIDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1D32BF142D0FD55F52F60C /* PXUIDatePicker.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3935B44CA50F5FFEA2A5E76C /* PBXContainerItemProxy */ = {
+		620AF2B34513CC693717199B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1C97ECE20D6231322025891B /* Project object */;
+			containerPortal = 6CB3D4529DBAE24B097E6545 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5DF67C71372A4C3F59F08CCE;
+			remoteGlobalIDString = 14CE79F797B2F8E78D478D2E;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		72CDD2AD58780BA04CA13618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB3D4529DBAE24B097E6545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CE79F797B2F8E78D478D2E;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		A8135F19B83099F0592184A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB3D4529DBAE24B097E6545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81CDFD3BAA5301E8C35E6F9;
 			remoteInfo = "Pods-BDBOAuth1Manager";
 		};
-		B285A7C29552963D0EB312C3 /* PBXContainerItemProxy */ = {
+		FCE25A43B0BF496AA45F98D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1C97ECE20D6231322025891B /* Project object */;
+			containerPortal = 6CB3D4529DBAE24B097E6545 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15FFD894FE1607C1C10470AB;
-			remoteInfo = "Pods-AFNetworking";
-		};
-		DA0A8A58706D1D60BE6166C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1C97ECE20D6231322025891B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15FFD894FE1607C1C10470AB;
-			remoteInfo = "Pods-AFNetworking";
+			remoteGlobalIDString = A1EC64C8E2DFF4D2DA78FEDB;
+			remoteInfo = "Pods-PixateFreestyle";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03F3B65C2184C77F903EC15F /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		0787D9FE54F1BDDE86D0CC6F /* BDBOAuth1RequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1RequestSerializer.h; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.h; sourceTree = "<group>"; };
-		0B2836D4DF6C41EB9D180089 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0EF6C55A5F50438E2B3C7469 /* NSDictionary+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
-		10070151DBEEB2D2C1C7B1EA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		13094C1C82017529CC18BF8A /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		161DA8611E02078D4BBF212B /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		167D75E0527DD01CABFEBE33 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19B39D600EADF0C6DB86BB6C /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		1D9285B1F05CB6EA370E9C0A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		1DA48594DA8363B2586B9284 /* Pods-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking.xcconfig"; sourceTree = "<group>"; };
-		24C3BB56CD86B1DD7EF554AC /* BDBOAuth1SessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1SessionManager.h; path = BDBOAuth1Manager/BDBOAuth1SessionManager.h; sourceTree = "<group>"; };
-		2687A34760744ED73E73DA31 /* NSDictionary+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
-		26B75DC06E7FBCB10557B5EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		29A601535B88BC3EE1D50F7D /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		2C701F3EF8C1B4FB0E4AB0D9 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		37EA21FE91017EA4351D1417 /* Pods-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
-		3A2987AB26B49938EEDC545C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		5B9B6064E4A992344CD0935C /* Pods-BDBOAuth1Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDBOAuth1Manager.xcconfig"; sourceTree = "<group>"; };
-		63F7FE3CFA3C75A19C253601 /* Pods-BDBOAuth1Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDBOAuth1Manager-dummy.m"; sourceTree = "<group>"; };
-		63FAD293F9A5460985964AC5 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		653FBA4C08831A6F45EB2705 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		678ADDE8E3310EF9C6ACE2D8 /* BDBOAuth1RequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1RequestOperationManager.h; path = BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h; sourceTree = "<group>"; };
-		6CDB6D64340846923A62CFA4 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		6E63F3D6DDBDCBF4CB771617 /* BDBOAuth1RequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1RequestOperationManager.m; path = BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m; sourceTree = "<group>"; };
-		708FB25037DE76B3FB5979FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		77BCB3AF7F2D92D92D271AEC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		79CB0ABFA0F46637CB062EDE /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		7A8091BB57D8C91F964E55EE /* BDBOAuth1SessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1SessionManager.m; path = BDBOAuth1Manager/BDBOAuth1SessionManager.m; sourceTree = "<group>"; };
-		89A6ED6B7E635D5254E0B72A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		913FE606A1A03C919FEAC5B8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		92E1330B412506A38DA29B46 /* NSString+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
-		95DCC67132C0164158488895 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		984AB1813D90C40C8F626038 /* NSString+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
-		991C494BF3A0E8C1470C1A53 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		9AD6CE52A0976A9E501A05BF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		9DBD8757A28E94A179C70B9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ABD685572642ED8707ACC42A /* Pods-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		AF0186F1D169B819114C5F24 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		AF04D5694ED8D8B52034F8C7 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		B0D48B0F79B3508F395D20C2 /* Pods-BDBOAuth1Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDBOAuth1Manager-prefix.pch"; sourceTree = "<group>"; };
-		B285EB9C9A025ECA688D44D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B66F5ADCF5586864174D0D41 /* Pods-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		B99B5BDC07F1ED045817AD52 /* Pods-BDBOAuth1Manager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDBOAuth1Manager-Private.xcconfig"; sourceTree = "<group>"; };
-		C44FE7F3D142E4A4AB7CD1B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C80CE485716940118552C3A9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		D0E92EAB9802B78514D25E6A /* libPods-BDBOAuth1Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDBOAuth1Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D581DFECBF69205AC676F598 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		E64FC673C8BFA63455CFE81F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		ECE623D21783306599897F97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		F7B9ABEA963006D4D3E4B5F1 /* BDBOAuth1RequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1RequestSerializer.m; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.m; sourceTree = "<group>"; };
-		FB39ADDE529607109FC5B768 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0287516B44D1E7FB86CF0EE7 /* PXOpacityStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXOpacityStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXOpacityStyler.h; sourceTree = "<group>"; };
+		02E43426F3A03A83AD203660 /* PXMediaExpressionGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMediaExpressionGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMediaExpressionGroup.h; sourceTree = "<group>"; };
+		0304E47716A7F559DA747339 /* PXNonScalingStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNonScalingStroke.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNonScalingStroke.h; sourceTree = "<group>"; };
+		0323C82F5CA499C84E4F90D4 /* Pods-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		0443BA0D72993B52610ECAF4 /* PXViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXViewUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXViewUtils.h; sourceTree = "<group>"; };
+		05BCBB2FD3CCBBD1776A27A6 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		066E4E4C05BFA706D107AD49 /* UIView+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIView+PXStyling.h"; sourceTree = "<group>"; };
+		06BEED66E1E73B2FA3B5CCD8 /* PXKeyframe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXKeyframe.h; path = PixateFreestyle.framework/Versions/A/Headers/PXKeyframe.h; sourceTree = "<group>"; };
+		073A9283A64DBF66B04B4292 /* PXAdjacentSiblingCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAdjacentSiblingCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAdjacentSiblingCombinator.h; sourceTree = "<group>"; };
+		08FDC3D247783C8E3744494E /* PXLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLine.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLine.h; sourceTree = "<group>"; };
+		09077A1241D0B87AA8661DA9 /* PXAttributeSelectorOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAttributeSelectorOperator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAttributeSelectorOperator.h; sourceTree = "<group>"; };
+		097A9D136FBE783C42DCDF7B /* PXStyleable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleable.h; sourceTree = "<group>"; };
+		0AFCF3EF45255D4BA3348AEC /* BDBOAuth1RequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1RequestSerializer.m; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.m; sourceTree = "<group>"; };
+		0C1FAABC9F98E4DC6BD53003 /* PXValueParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXValueParser.h; path = PixateFreestyle.framework/Versions/A/Headers/PXValueParser.h; sourceTree = "<group>"; };
+		0C3FF3C693EE7B2432FC1408 /* PXNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNotificationManager.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNotificationManager.h; sourceTree = "<group>"; };
+		0C56CD3DECF5E49267A1AF02 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		12065DBD706C297ACA605FC0 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		13835ECA401328A6C0885194 /* PXLayoutStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLayoutStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLayoutStyler.h; sourceTree = "<group>"; };
+		13DE2548B560D34E1D50DFFF /* PXUIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIImageView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIImageView.h; sourceTree = "<group>"; };
+		1461741981CBE37EEC5F2D8B /* PXClassUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXClassUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXClassUtils.h; sourceTree = "<group>"; };
+		1495187F7C573CE9A7421C2B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		1852683F6B692791474CB664 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = PixateFreestyle.framework/Versions/A/Headers/DDLog.h; sourceTree = "<group>"; };
+		18E96774C7B3F7BEBFC33190 /* PXNotificationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNotificationInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNotificationInfo.h; sourceTree = "<group>"; };
+		193D84F348CF47D3EAD8A364 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		19BA4A4920B0E655DED06747 /* PXVirtualStyleableControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXVirtualStyleableControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXVirtualStyleableControl.h; sourceTree = "<group>"; };
+		19C7B64452984C1BFF01A5DC /* PXAnimationStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAnimationStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAnimationStyler.h; sourceTree = "<group>"; };
+		1AA262FD98E01F3C971E8E32 /* PXUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUILabel.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUILabel.h; sourceTree = "<group>"; };
+		1B22159AF53858E2C829D2E7 /* PXUIWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIWindow.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIWindow.h; sourceTree = "<group>"; };
+		1B6776BBAC0B265EE9F5A11A /* PXTransformParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformParser.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformParser.h; sourceTree = "<group>"; };
+		219B2493AD9559AB665C74AF /* Pods-PixateFreestyle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixateFreestyle-prefix.pch"; sourceTree = "<group>"; };
+		21FD3B1ABFEEFD218808B893 /* PXUICollectionViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUICollectionViewDelegate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUICollectionViewDelegate.h; sourceTree = "<group>"; };
+		2299B97FBD50B2EE9CD0FEEF /* PXForceLoadPixateCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadPixateCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadPixateCategories.h; sourceTree = "<group>"; };
+		22F1A946E12ECD1B43F0DD57 /* Pods-BDBOAuth1Manager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDBOAuth1Manager-Private.xcconfig"; sourceTree = "<group>"; };
+		231DF0C35ED6566DDCC2BD4C /* NSObject+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSObject+PXStyling.h"; sourceTree = "<group>"; };
+		23942D9FAB704E12B246A790 /* PXGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGraphics.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGraphics.h; sourceTree = "<group>"; };
+		23BACB8E6B63F013492F8336 /* PXVirtualControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXVirtualControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXVirtualControl.h; sourceTree = "<group>"; };
+		2463122B25825950FF0155B6 /* PXUIPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIPageControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIPageControl.h; sourceTree = "<group>"; };
+		259592ABFDEC347FB18D3A13 /* PXStrokeGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStrokeGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStrokeGroup.h; sourceTree = "<group>"; };
+		25E98ECADB00E17295CE5AF0 /* PXMKAnnotationContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMKAnnotationContainerView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMKAnnotationContainerView.h; sourceTree = "<group>"; };
+		2602B2604BF4FBED96CD6681 /* NSDictionary+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
+		2889EF97B9657B1EAEA7C96B /* UIBarButtonItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIBarButtonItem+PXStyling.h"; sourceTree = "<group>"; };
+		28C730D94B878EB60D97F52D /* PXUIStepper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIStepper.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIStepper.h; sourceTree = "<group>"; };
+		28E3723FDDFF7B9529D87F41 /* PXMPVolumeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMPVolumeView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMPVolumeView.h; sourceTree = "<group>"; };
+		28FAF95C8960B20F64A95183 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		292681006A1AB6B166943231 /* PXCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCombinator.h; sourceTree = "<group>"; };
+		2D1D6AC57EA1E6FF2840434F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		2D7E17448BA568A40251B1FB /* PXUIActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIActionSheet.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIActionSheet.h; sourceTree = "<group>"; };
+		2EDA41EE74DAC85326994453 /* PXUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISegmentedControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISegmentedControl.h; sourceTree = "<group>"; };
+		2FCFC5EE4EA454F76B4684DB /* PXEllipticalArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXEllipticalArc.h; path = PixateFreestyle.framework/Versions/A/Headers/PXEllipticalArc.h; sourceTree = "<group>"; };
+		2FDC249B9797D54577BD68E0 /* PXShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShadow.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShadow.h; sourceTree = "<group>"; };
+		34AD57D699960D3CE4EBFF6B /* PXPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPath.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPath.h; sourceTree = "<group>"; };
+		351BD5349BCE0B420FA37774 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		354DC163B9CDC33AD677D71A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3797C3178750B83F2DC64DBE /* Version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Version.h; path = PixateFreestyle.framework/Versions/A/Headers/Version.h; sourceTree = "<group>"; };
+		38272A3625C90FBE85F40317 /* PXUISlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISlider.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISlider.h; sourceTree = "<group>"; };
+		39936DDBECB98360510CB21D /* PXUIProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIProgressView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIProgressView.h; sourceTree = "<group>"; };
+		3A8DD05F1E6522E544A66E74 /* PXUIWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIWebView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIWebView.h; sourceTree = "<group>"; };
+		3B84CCF7851557DC17CCA699 /* PXStylesheetParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetParser.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetParser.h; sourceTree = "<group>"; };
+		3D530B2F8F6A65DC73CDA71B /* PXUITabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITabBar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITabBar.h; sourceTree = "<group>"; };
+		3F14EA8528540A8AEAC146E2 /* PXMacrosCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMacrosCommon.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMacrosCommon.h; sourceTree = "<group>"; };
+		3F8DE80A531531B54F56B243 /* PXCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCacheManager.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCacheManager.h; sourceTree = "<group>"; };
+		3F97E468DD00F51BB9C1C1F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		40E366C7E7C5B5607E7DCCB6 /* PXTransitionRuleSetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransitionRuleSetInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransitionRuleSetInfo.h; sourceTree = "<group>"; };
+		42651662424B6264828940C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		432CE393357E1BD55F3B5619 /* PXShadowPaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShadowPaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShadowPaint.h; sourceTree = "<group>"; };
+		43EDC6CD80229ED2372B37D5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		4408A67D021BFE72D7F537FF /* PXShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShape.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShape.h; sourceTree = "<group>"; };
+		45364E464E2835960A00D839 /* PXStylesheetLexeme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetLexeme.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetLexeme.h; sourceTree = "<group>"; };
+		46E3C72C74B8B44685168D71 /* PXFileUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFileUtils.h; sourceTree = "<group>"; };
+		46E921B99750A3B1C2EB72E4 /* PXDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDimension.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDimension.h; sourceTree = "<group>"; };
+		47CB9CA8525704CFA57F1C5A /* BDBOAuth1RequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1RequestOperationManager.h; path = BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h; sourceTree = "<group>"; };
+		48063BF9544BB70D83F70DD9 /* Pods-BDBOAuth1Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDBOAuth1Manager-prefix.pch"; sourceTree = "<group>"; };
+		484B06E3B553C1703CAB6587 /* PXBarShadowStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBarShadowStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBarShadowStyler.h; sourceTree = "<group>"; };
+		4AF9D424788E01EF5ACEAA94 /* PXStylingMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylingMacros.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylingMacros.h; sourceTree = "<group>"; };
+		4BC7D651DE68062B1F0AC841 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		4C0A689842DC71B1DF710EEE /* PXUIToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIToolbar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIToolbar.h; sourceTree = "<group>"; };
+		4C1A7EDE3EF69D972B4E98EA /* PXSourceWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceWriter.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSourceWriter.h; sourceTree = "<group>"; };
+		4C72EE0AD31F40F7CD5B5750 /* NSDictionary+PXObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXObject.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSDictionary+PXObject.h"; sourceTree = "<group>"; };
+		4E86E3E1C22968B3092DD294 /* Pods-BDBOAuth1Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDBOAuth1Manager.xcconfig"; sourceTree = "<group>"; };
+		4FDEE07B22092D43C248A898 /* PXStyleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleInfo.h; sourceTree = "<group>"; };
+		509266A5C0A4A46265A2B9EE /* PXPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPolygon.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPolygon.h; sourceTree = "<group>"; };
+		50EF1AB25C7501FD249EB887 /* PXRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRectangle.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRectangle.h; sourceTree = "<group>"; };
+		515B2997C525B4F7A201AC03 /* PXUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIButton.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIButton.h; sourceTree = "<group>"; };
+		53E374826350453AA4C0275C /* PXStylesheetLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetLexer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetLexer.h; sourceTree = "<group>"; };
+		5511C151ADB24A7CA16A6D9D /* PXTransitionStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransitionStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransitionStyler.h; sourceTree = "<group>"; };
+		57A6AB0CC9A80C2BD7DE617F /* PXLinearGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLinearGradient.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLinearGradient.h; sourceTree = "<group>"; };
+		57C8CCCC63D656E23C911998 /* BDBOAuth1SessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1SessionManager.h; path = BDBOAuth1Manager/BDBOAuth1SessionManager.h; sourceTree = "<group>"; };
+		57CB4FE3DE19B0C697BC1F1B /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		58BC1E80AB90938DB82D9615 /* PXClassSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXClassSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXClassSelector.h; sourceTree = "<group>"; };
+		5AAAA61F063B1FA09D35BD66 /* PXStylesheetTokenType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetTokenType.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetTokenType.h; sourceTree = "<group>"; };
+		5B3A502FF9FAC28790EDEFA3 /* Pods-PixateFreestyle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyle-Private.xcconfig"; sourceTree = "<group>"; };
+		5C14E8CC40FCB54E9D008338 /* PXRuntimeUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRuntimeUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRuntimeUtils.h; sourceTree = "<group>"; };
+		5C5F2A9C63513C327B7F41D2 /* PXDelegateLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDelegateLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDelegateLogger.h; sourceTree = "<group>"; };
+		5D2B1021D5537BD71D40F3E9 /* Pods-PixateFreestyle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixateFreestyle-dummy.m"; sourceTree = "<group>"; };
+		5D550A991EE26DC29C61624D /* PXForceLoadControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadControls.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadControls.h; sourceTree = "<group>"; };
+		5D57EC93FC75807B717EDB60 /* PXUINavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUINavigationBar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUINavigationBar.h; sourceTree = "<group>"; };
+		5D5C0B8A6ED223D7FF3BF080 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		5ED85B4BD84E81D6ED4A0BCA /* PXStyleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleUtils.h; sourceTree = "<group>"; };
+		5F2B3174E3B6F669F782C8CE /* Pods-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		5F773C7167A043441C2D657E /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		5F8291F9E2CC6E4B62B0CB94 /* UIView+PXStyling-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXStyling-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIView+PXStyling-Private.h"; sourceTree = "<group>"; };
+		610735745E00EAAD7B687819 /* PXMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMath.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMath.h; sourceTree = "<group>"; };
+		62525EFAAF2796E4977D88E0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		6352DAFA345E54AD69D9ACB1 /* PXUIPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIPickerView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIPickerView.h; sourceTree = "<group>"; };
+		636581D2480D5A5DE179301C /* PXPatternMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPatternMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPatternMatcher.h; sourceTree = "<group>"; };
+		639201DCD842001A676B20AD /* PXShadowGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShadowGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShadowGroup.h; sourceTree = "<group>"; };
+		67924501B67DF552B579F953 /* PXIdSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXIdSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXIdSelector.h; sourceTree = "<group>"; };
+		67D8F4E64135877DBCDCF392 /* libPods-PixateFreestyle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixateFreestyle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DAEBFD89A0039A1D59655C /* PXNumberMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNumberMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNumberMatcher.h; sourceTree = "<group>"; };
+		6A00FFE2005B584ADE96D965 /* PXUITableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewDelegate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewDelegate.h; sourceTree = "<group>"; };
+		6A2F9BA0BE8384DA240961A1 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6A5A6ACB50DADA79A4002ECE /* PXGestalt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGestalt.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGestalt.h; sourceTree = "<group>"; };
+		6C0656AB72D57101BB2AD496 /* PXAttributeSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAttributeSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAttributeSelector.h; sourceTree = "<group>"; };
+		6E1786B03160F2E8EFC8AD60 /* PXPie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPie.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPie.h; sourceTree = "<group>"; };
+		7077C0E60522DFA212577ACF /* PXStyleTreeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleTreeInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleTreeInfo.h; sourceTree = "<group>"; };
+		71F061A3531D13E98E8B1D6D /* NSArray+Reverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Reverse.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSArray+Reverse.h"; sourceTree = "<group>"; };
+		75324E037862337E324801C8 /* PXUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITextField.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITextField.h; sourceTree = "<group>"; };
+		766E41F7653D8D0CBF0CEDFB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		77CB1FA343A5199ABFCBCDD1 /* UIBarItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIBarItem+PXStyling.h"; sourceTree = "<group>"; };
+		77F1231D42F77B1948BF4503 /* Pods-PixateFreestyle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyle.xcconfig"; sourceTree = "<group>"; };
+		784058175078414A65F15AA1 /* PXStylerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylerBase.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylerBase.h; sourceTree = "<group>"; };
+		79DB0EE772D65C042A71B683 /* UIColor+PXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+PXColors.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIColor+PXColors.h"; sourceTree = "<group>"; };
+		7A4C6C2C493D60D15C61B743 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7A889BA328BDA69FB134E09E /* PXUIView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIView.h; sourceTree = "<group>"; };
+		7A89411585711E737F1E749D /* PXForceLoadVirtualCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadVirtualCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadVirtualCategories.h; sourceTree = "<group>"; };
+		7BEF600E96730E60BB93EA6A /* PXWeakWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXWeakWrapper.h; path = PixateFreestyle.framework/Versions/A/Headers/PXWeakWrapper.h; sourceTree = "<group>"; };
+		7CC24DA3948833E029EE1368 /* PXUICollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUICollectionViewCell.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUICollectionViewCell.h; sourceTree = "<group>"; };
+		7E6D7EFE0FAA2DB0AB67697E /* PXSpecificity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSpecificity.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSpecificity.h; sourceTree = "<group>"; };
+		7F9D4A921E3964555266D28D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		805D39EBBF8B80444D2D29AB /* PXUIActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIActivityIndicatorView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIActivityIndicatorView.h; sourceTree = "<group>"; };
+		80C849F448F03BE044B5D722 /* Pods-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		80E64BD2F4B67E0E20573679 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		810D281D7DC3EA1815923BED /* PXAnimationPropertyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAnimationPropertyHandler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAnimationPropertyHandler.h; sourceTree = "<group>"; };
+		81A93EB1FD09F3E2BE45A185 /* PXGenericStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGenericStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGenericStyler.h; sourceTree = "<group>"; };
+		83495944F26B992CA7D505E0 /* PXRadialGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRadialGradient.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRadialGradient.h; sourceTree = "<group>"; };
+		834CBB55849D783C82A3BAA7 /* PixateFreestyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PixateFreestyle.h; path = PixateFreestyle.framework/Versions/A/Headers/PixateFreestyle.h; sourceTree = "<group>"; };
+		837DAAA84E82B5E465122483 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		837E4B7B793FC871F1059ADB /* BDBOAuth1SessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1SessionManager.m; path = BDBOAuth1Manager/BDBOAuth1SessionManager.m; sourceTree = "<group>"; };
+		84EAF5C7E43739E8D13BED98 /* PXChildCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXChildCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXChildCombinator.h; sourceTree = "<group>"; };
+		84F98F70C7244FB8F829162B /* PXFontStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontStyler.h; sourceTree = "<group>"; };
+		85D7B9B87E8EB91A1ECA3D0F /* PXPaintStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaintStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaintStyler.h; sourceTree = "<group>"; };
+		88015190274C3FFAFBF59DBB /* PXShapeDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeDocument.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeDocument.h; sourceTree = "<group>"; };
+		8805E57E51693CFD1DDA29EC /* PXFontInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontInfo.h; sourceTree = "<group>"; };
+		8879BA4B2D11C5195BFAEB9E /* PXSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSelector.h; sourceTree = "<group>"; };
+		88B4EF768DAA4A9DF1F8CA7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A60FBE8DFCE525D32747B86 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDFileLogger.h; sourceTree = "<group>"; };
+		8BF17F3DAA8F8D43629A1A8B /* BDBOAuth1RequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDBOAuth1RequestOperationManager.m; path = BDBOAuth1Manager/BDBOAuth1RequestOperationManager.m; sourceTree = "<group>"; };
+		8CFDF5CD10C0C691260DC3E7 /* Pods-BDBOAuth1Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDBOAuth1Manager-dummy.m"; sourceTree = "<group>"; };
+		8E5A49BDB5A8F2F8F9B30C93 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF2B54D52034E038A127628 /* PXUITableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewCell.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewCell.h; sourceTree = "<group>"; };
+		91340E764C027F004F0C0E7F /* NSString+BDBOAuth1Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+BDBOAuth1Manager.m"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.m"; sourceTree = "<group>"; };
+		918A727E4088CE93C8AD1F48 /* PXVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXVector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXVector.h; sourceTree = "<group>"; };
+		929FE9937BB8981E2E1987A0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		92B385424F8D47351B9E8763 /* PXStylesheet-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXStylesheet-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/PXStylesheet-Private.h"; sourceTree = "<group>"; };
+		9417CD7ACA0EFC7BD84D7172 /* PXMediaGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMediaGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMediaGroup.h; sourceTree = "<group>"; };
+		952ED65115BCA5347EC14279 /* NSDictionary+PXCSSEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXCSSEncoding.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSDictionary+PXCSSEncoding.h"; sourceTree = "<group>"; };
+		9565AC40EBF5C7D981C24B96 /* PXSourceEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceEmitter.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSourceEmitter.h; sourceTree = "<group>"; };
+		974A7C989B9FD9AEA79F0883 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		9786090799E3CDF12F126671 /* PXStylesheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheet.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheet.h; sourceTree = "<group>"; };
+		97C408999DA6723CDF5A34BF /* libPods-BDBOAuth1Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDBOAuth1Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989908E31AD217BF3FF3A18A /* PXAttributedTextStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAttributedTextStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAttributedTextStyler.h; sourceTree = "<group>"; };
+		98C00005C62B90439A86423E /* PXEllipse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXEllipse.h; path = PixateFreestyle.framework/Versions/A/Headers/PXEllipse.h; sourceTree = "<group>"; };
+		9A48C9F2DE969D9719478CF4 /* UITabBarItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UITabBarItem+PXStyling.h"; sourceTree = "<group>"; };
+		9D1D32BF142D0FD55F52F60C /* PXUIDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIDatePicker.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIDatePicker.h; sourceTree = "<group>"; };
+		9E44B642085A1882EC555C73 /* PXForceLoadStylingCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadStylingCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadStylingCategories.h; sourceTree = "<group>"; };
+		A0DCC8DCA37BDCB6960FEB49 /* PXStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyler.h; sourceTree = "<group>"; };
+		A32BB68CF17C32E39FA0C118 /* PXUITableViewCellContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewCellContentView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewCellContentView.h; sourceTree = "<group>"; };
+		A6AFAADBF5BA34E40B92CC93 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A706435926FE64670E093653 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A742B9CAA8564099B7FBD81C /* PXArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXArc.h; path = PixateFreestyle.framework/Versions/A/Headers/PXArc.h; sourceTree = "<group>"; };
+		A785DC36F930DA35A4BE70B1 /* PXKeyframeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXKeyframeAnimation.h; path = PixateFreestyle.framework/Versions/A/Headers/PXKeyframeAnimation.h; sourceTree = "<group>"; };
+		A7C1EBD26060953D03D7194F /* BDBOAuth1RequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDBOAuth1RequestSerializer.h; path = BDBOAuth1Manager/BDBOAuth1RequestSerializer.h; sourceTree = "<group>"; };
+		AA4813E470A0ECEB73C5CACB /* PXGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGradient.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGradient.h; sourceTree = "<group>"; };
+		AB047D27F3CE7A6B6ABF01D6 /* PXFillStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFillStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFillStyler.h; sourceTree = "<group>"; };
+		AB7982E3FC8A02F5FD40598A /* PXCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCircle.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCircle.h; sourceTree = "<group>"; };
+		AE33BCD5FA21B46B8C2647CA /* PXUISwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISwitch.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISwitch.h; sourceTree = "<group>"; };
+		AE6EBD0C2EB7A0055F5C7837 /* PXLexemeCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLexemeCreator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLexemeCreator.h; sourceTree = "<group>"; };
+		AF3DF1922D908E1C5B29BB3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AFB1B950CCE81E0DCD620D0C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B2BAC26D6838DFFA310FA587 /* PXCharacterMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCharacterMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCharacterMatcher.h; sourceTree = "<group>"; };
+		B2F0D727B0E27EC30A534FCE /* PXFontRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontRegistry.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontRegistry.h; sourceTree = "<group>"; };
+		B2F7BC284802DCD3E1C5DD85 /* UIBarButtonItem+PXStyling-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+PXStyling-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIBarButtonItem+PXStyling-Private.h"; sourceTree = "<group>"; };
+		B34314524AC2401A2A61AFF5 /* PXMKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMKMapView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMKMapView.h; sourceTree = "<group>"; };
+		B4CCD1AFF5A1EB419CD348ED /* PXPaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaint.h; sourceTree = "<group>"; };
+		B4FCC234DE5F2C13F26EE9FD /* objc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objc.h; path = PixateFreestyle.framework/Versions/A/Headers/objc.h; sourceTree = "<group>"; };
+		B52A1BAC0DA3977EA9F2F36F /* PXPseudoClassSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPseudoClassSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPseudoClassSelector.h; sourceTree = "<group>"; };
+		B951B44FA9C40F55E1E6D448 /* NSScanner+PXFloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+PXFloat.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSScanner+PXFloat.h"; sourceTree = "<group>"; };
+		BA292F222A3CCE2E3277A6D8 /* NSMutableDictionary+PXObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+PXObject.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSMutableDictionary+PXObject.h"; sourceTree = "<group>"; };
+		BA3C79F1D9977EB80F1B9B8A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BA6042307B0931152B048A9F /* PXCombinatorBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCombinatorBase.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCombinatorBase.h; sourceTree = "<group>"; };
+		BA9103FE18C3EF53998C2A9C /* PXWordMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXWordMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXWordMatcher.h; sourceTree = "<group>"; };
+		BD934F79A4E4B7B6405E0D75 /* PXNamedMediaExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNamedMediaExpression.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNamedMediaExpression.h; sourceTree = "<group>"; };
+		BDCB768AE9A3758E663F1F25 /* PXUILayoutContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUILayoutContainerView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUILayoutContainerView.h; sourceTree = "<group>"; };
+		BE49A4349A4FC311413DB742 /* PXStrokeStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStrokeStroke.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStrokeStroke.h; sourceTree = "<group>"; };
+		BE99C652CAB6B51CCE2B4915 /* PXForceLoadCGCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadCGCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadCGCategories.h; sourceTree = "<group>"; };
+		BEA109D5CA8F9C05CDAA911F /* UINavigationItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UINavigationItem+PXStyling.h"; sourceTree = "<group>"; };
+		BECDCA16DF7C61BD4F5F90D0 /* PXSiblingCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSiblingCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSiblingCombinator.h; sourceTree = "<group>"; };
+		BEDADD623E585D3F7E781EE1 /* PXUIPickerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIPickerViewDelegate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIPickerViewDelegate.h; sourceTree = "<group>"; };
+		BF8A47B426DB9836E03E7206 /* PXUIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIScrollView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIScrollView.h; sourceTree = "<group>"; };
+		BF9EA75F682F3AB45B38D44F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFDA299EE37EABC1B5730ECE /* PXUICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUICollectionView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUICollectionView.h; sourceTree = "<group>"; };
+		BFDEF542D27195E5C83FE403 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0B71E529D053495E37F7B25 /* PXUITableViewHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewHeaderFooterView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		C15AE3058C34747BD98F49F7 /* PXLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLog.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLog.h; sourceTree = "<group>"; };
+		C21DE21A5CB34912BE1BAF42 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C375FBF207816C323DF1B59A /* PXSolidPaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSolidPaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSolidPaint.h; sourceTree = "<group>"; };
+		C3EDC11D63D7746FE2E9B29B /* PXTransformStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformStyler.h; sourceTree = "<group>"; };
+		C43FA0F4B4FCA6CAB7477E5D /* PixateFreestyleConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PixateFreestyleConfiguration.h; path = PixateFreestyle.framework/Versions/A/Headers/PixateFreestyleConfiguration.h; sourceTree = "<group>"; };
+		C4FC4CA12F9FEF3493485EAF /* PXTypeSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTypeSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTypeSelector.h; sourceTree = "<group>"; };
+		C57BB822C58FEBD6374E357A /* PXStrokeRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStrokeRenderer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStrokeRenderer.h; sourceTree = "<group>"; };
+		C60B298DF2FAC1921BB6BF6D /* PXMKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMKAnnotationView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMKAnnotationView.h; sourceTree = "<group>"; };
+		C786A26C8126DDF024D3A6BF /* PXUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITextView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITextView.h; sourceTree = "<group>"; };
+		C7D8B417A748B3B75A517935 /* PXTextContentStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTextContentStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTextContentStyler.h; sourceTree = "<group>"; };
+		C7F2CC661928FC83BAAC8B0E /* PXArrowRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXArrowRectangle.h; path = PixateFreestyle.framework/Versions/A/Headers/PXArrowRectangle.h; sourceTree = "<group>"; };
+		C910A551456F3EC2C74EC58C /* NSObject+PXSubclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXSubclass.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSObject+PXSubclass.h"; sourceTree = "<group>"; };
+		CA9C89C6476E0078E6398AD1 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDTTYLogger.h; sourceTree = "<group>"; };
+		CAF85560AE1E550FADBD7006 /* PXShapeStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeStyler.h; sourceTree = "<group>"; };
+		CB13D1F444772CA5CEA7FEF6 /* Pods-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		CD37BB60A2F6EC490E869821 /* PXImagePaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXImagePaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXImagePaint.h; sourceTree = "<group>"; };
+		CDA978AD006E899659DA6BE9 /* PXURLMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXURLMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXURLMatcher.h; sourceTree = "<group>"; };
+		CF7101BC708ED16311ED5812 /* PixateFreestyle-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PixateFreestyle-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/PixateFreestyle-Private.h"; sourceTree = "<group>"; };
+		D152CA262A5FB197D8BE7CD4 /* PXKeyframeBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXKeyframeBlock.h; path = PixateFreestyle.framework/Versions/A/Headers/PXKeyframeBlock.h; sourceTree = "<group>"; };
+		D282C398EED9909BEF6DB974 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/PixateFreestyle.framework; sourceTree = DEVELOPER_DIR; };
+		D2B5EDDBC92793DC6DA57389 /* PXUITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableView.h; sourceTree = "<group>"; };
+		D30BD9716254B600B7BAFCAE /* PXTransformTokenType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformTokenType.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformTokenType.h; sourceTree = "<group>"; };
+		D340CC8DD7B394B38E1D6958 /* PXBoxModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBoxModel.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBoxModel.h; sourceTree = "<group>"; };
+		D35D6B6AA25D392DB0AA1B59 /* PXTransformLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformLexer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformLexer.h; sourceTree = "<group>"; };
+		D462744CFD568EDE5CB74877 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDASLLogger.h; sourceTree = "<group>"; };
+		D5039C048A5B6E08120B1743 /* PXTitaniumMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTitaniumMacros.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTitaniumMacros.h; sourceTree = "<group>"; };
+		D503E8877CC3A62D2FA37358 /* PXTextShadowStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTextShadowStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTextShadowStyler.h; sourceTree = "<group>"; };
+		D5503B16BC729631195E5E6B /* PXProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXProxy.h; path = PixateFreestyle.framework/Versions/A/Headers/PXProxy.h; sourceTree = "<group>"; };
+		D56D5317B550F3B2DAE2F12D /* PXDeclarationContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDeclarationContainer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDeclarationContainer.h; sourceTree = "<group>"; };
+		D63FB78FE47509E394DBAE51 /* PXAnimationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAnimationInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAnimationInfo.h; sourceTree = "<group>"; };
+		D7D6BAB04436EF9747F884AF /* PXBarMetricsAdjustmentStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBarMetricsAdjustmentStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBarMetricsAdjustmentStyler.h; sourceTree = "<group>"; };
+		D85F7AD32A84AF967441636B /* PXShapeGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeGroup.h; sourceTree = "<group>"; };
+		DB893DA3553D5BAE2EB8E0C3 /* PXNotPseudoClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNotPseudoClass.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNotPseudoClass.h; sourceTree = "<group>"; };
+		DBCC5F2DD261FEB79C2C02DD /* PXSVGLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSVGLoader.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSVGLoader.h; sourceTree = "<group>"; };
+		DD4D7E570F0D487E86813A4D /* NSDictionary+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSDictionary+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
+		DDB8DEE288DC49BB4A846D9C /* PXPseudoClassPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPseudoClassPredicate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPseudoClassPredicate.h; sourceTree = "<group>"; };
+		DE6EAFB2DD0B267F7BFC1DD2 /* PXPaintable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaintable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaintable.h; sourceTree = "<group>"; };
+		E1027691B87F50C9BAC4E873 /* PXBorderStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBorderStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBorderStyler.h; sourceTree = "<group>"; };
+		E20B12042DD6DE42352D95C1 /* PXValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXValue.h; path = PixateFreestyle.framework/Versions/A/Headers/PXValue.h; sourceTree = "<group>"; };
+		E24921957EBB3036CC09E5D5 /* PXShapeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeView.h; sourceTree = "<group>"; };
+		E2934772F80298E4D57DEC7F /* PXMediaExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMediaExpression.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMediaExpression.h; sourceTree = "<group>"; };
+		E321E6DCBAFA619D70D98C76 /* PXDescendantCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDescendantCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDescendantCombinator.h; sourceTree = "<group>"; };
+		E3DEC4F78420B6CADF23A738 /* NSObject+PXClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXClass.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSObject+PXClass.h"; sourceTree = "<group>"; };
+		E43870B86D689C1202D3E3BF /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		E4EAD5B58933DAF4988DC66C /* PXBoundable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBoundable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBoundable.h; sourceTree = "<group>"; };
+		E6FCD07D0C570ACE6C860158 /* PXText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXText.h; path = PixateFreestyle.framework/Versions/A/Headers/PXText.h; sourceTree = "<group>"; };
+		E840339BD717898613AE7891 /* PXStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStroke.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStroke.h; sourceTree = "<group>"; };
+		EA0A4980AA2AB7D1CDA18299 /* PXStylerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylerContext.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylerContext.h; sourceTree = "<group>"; };
+		EAC811684E7C64FE23BA1810 /* PXRenderable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRenderable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRenderable.h; sourceTree = "<group>"; };
+		ED40401B123F1DD19B903CB2 /* PXDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDeclaration.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDeclaration.h; sourceTree = "<group>"; };
+		ED5BE47843B6E32799CF7202 /* NSMutableArray+StackAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+StackAdditions.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSMutableArray+StackAdditions.h"; sourceTree = "<group>"; };
+		EDBBFC49DA13D3C401DE23CF /* PXFontEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontEntry.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontEntry.h; sourceTree = "<group>"; };
+		EDC7171A6EB9E72AFF82AE2F /* PXRuleSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRuleSet.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRuleSet.h; sourceTree = "<group>"; };
+		EEBF49901F6FD92D8C907931 /* PXFileWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileWatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFileWatcher.h; sourceTree = "<group>"; };
+		EF56FA36D8440BEB1225AE33 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueAdditions.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		F07F8888499618D3658F1BF6 /* PXPaintGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaintGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaintGroup.h; sourceTree = "<group>"; };
+		F1AEBAAB80E1841E1A322891 /* PXOffsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXOffsets.h; path = PixateFreestyle.framework/Versions/A/Headers/PXOffsets.h; sourceTree = "<group>"; };
+		F1BD7CD03C624DE83B2457EF /* PXUISearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISearchBar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISearchBar.h; sourceTree = "<group>"; };
+		F2CBD6AB342E46601A2E1423 /* PXPseudoClassFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPseudoClassFunction.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPseudoClassFunction.h; sourceTree = "<group>"; };
+		F49B5548EE537BA80CB0F764 /* PXUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUtils.h; sourceTree = "<group>"; };
+		F4B2BDE912B8AD04EFD80141 /* PXUIRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIRefreshControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIRefreshControl.h; sourceTree = "<group>"; };
+		F5B031543858D35A2922CD3D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		F6078F4F81D0CE2F019CB6DA /* PXBoxShadowStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBoxShadowStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBoxShadowStyler.h; sourceTree = "<group>"; };
+		F69CBD6FB0AA428C7D911C39 /* PXColorStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXColorStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXColorStyler.h; sourceTree = "<group>"; };
+		F86ED673A19AA39D01D589AA /* PXFileFunctionLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileFunctionLogFormatter.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFileFunctionLogFormatter.h; sourceTree = "<group>"; };
+		F9BA5329AD6AC221FBE30BAC /* PXBorderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBorderInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBorderInfo.h; sourceTree = "<group>"; };
+		FA5F6BDBA1CB75470723635E /* PXInsetStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXInsetStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXInsetStyler.h; sourceTree = "<group>"; };
+		FAC09B4074D89805A1EB5211 /* NSString+BDBOAuth1Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BDBOAuth1Manager.h"; path = "BDBOAuth1Manager/Categories/NSString+BDBOAuth1Manager.h"; sourceTree = "<group>"; };
+		FBFD397E48B013EFC5EB00A1 /* PXImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXImageUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXImageUtils.h; sourceTree = "<group>"; };
+		FEB88FF9A60F25C59B0F545E /* PXLoggingUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLoggingUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLoggingUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		582F2A72A130A5B9B71B8994 /* Frameworks */ = {
+		150307C72A4066C87C622968 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2095910F499C66A7B634861D /* CoreGraphics.framework in Frameworks */,
-				F0EC1840FB6799F67DC943A2 /* Foundation.framework in Frameworks */,
-				D97682237AB08780B6A816B5 /* MobileCoreServices.framework in Frameworks */,
-				B53BBA39794DA6E79720C189 /* Security.framework in Frameworks */,
-				3CAE4365D9196BD906A77E20 /* SystemConfiguration.framework in Frameworks */,
+				96E80FD82B2F5FEB632B3E0D /* CoreGraphics.framework in Frameworks */,
+				4891B955CBEC8441C2B28116 /* Foundation.framework in Frameworks */,
+				BDB02A5996785CF57471569D /* MobileCoreServices.framework in Frameworks */,
+				804977B917BD767E72DEB179 /* Security.framework in Frameworks */,
+				D3C489AC21A5D9B9A61F2A21 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5D7A1AA4573B95E7FE7D6E1 /* Frameworks */ = {
+		56574E4EAC72DDA56EBDFAAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F79ACD709877B721B581C118 /* Foundation.framework in Frameworks */,
+				3D1BC8CF0510719BAB5B8DB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7C3B165FE08116E64828962 /* Frameworks */ = {
+		7779934518530CA2A61FCFC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C40F9E432F2BACC53924841 /* Foundation.framework in Frameworks */,
+				9764594345A942AE9C5C3425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF2349800847AE6BD3B965C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3C25B9F0888AB35D35B016 /* CoreGraphics.framework in Frameworks */,
+				51448BEC1E5195E3D0870F0E /* CoreText.framework in Frameworks */,
+				2E16953DF41B9F10A33A0BAD /* Foundation.framework in Frameworks */,
+				37584FFE880F93981EDBE15D /* PixateFreestyle.framework in Frameworks */,
+				F8CB8C9C18104B82CF12FE98 /* QuartzCore.framework in Frameworks */,
+				61B6158D83C228B1D266E374 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		183BBA53FE47891BA1EE62FE /* AFNetworking */ = {
+		0998C0EDBB45A3AAE826A7A5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AAE96E36B16AF11B335B8D0 /* NSURLConnection */,
-				7A85BDB830CEDE971F97D0C3 /* NSURLSession */,
-				B40D2B5276791C3D06E35196 /* Reachability */,
-				4F5AD1A6CD128174B0918085 /* Security */,
-				E354F7CAB88BE618690FF6A0 /* Serialization */,
-				2D224271347A787779FBA8D3 /* Support Files */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		292286AF764D01A02297F408 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				183BBA53FE47891BA1EE62FE /* AFNetworking */,
-				C3ACC2E51EED678972AC9867 /* BDBOAuth1Manager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2D224271347A787779FBA8D3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1DA48594DA8363B2586B9284 /* Pods-AFNetworking.xcconfig */,
-				37EA21FE91017EA4351D1417 /* Pods-AFNetworking-Private.xcconfig */,
-				B66F5ADCF5586864174D0D41 /* Pods-AFNetworking-dummy.m */,
-				ABD685572642ED8707ACC42A /* Pods-AFNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-AFNetworking";
-			sourceTree = "<group>";
-		};
-		4F5AD1A6CD128174B0918085 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				913FE606A1A03C919FEAC5B8 /* AFSecurityPolicy.h */,
-				D581DFECBF69205AC676F598 /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		7A85BDB830CEDE971F97D0C3 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				10070151DBEEB2D2C1C7B1EA /* AFHTTPSessionManager.h */,
-				AF0186F1D169B819114C5F24 /* AFHTTPSessionManager.m */,
-				19B39D600EADF0C6DB86BB6C /* AFURLSessionManager.h */,
-				95DCC67132C0164158488895 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		7F15D02F52FA719C48CF758F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				83C906FB5DE7CAD044E8598E /* Pods */,
+				EC294EE55219C882B148CC6C /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		83C906FB5DE7CAD044E8598E /* Pods */ = {
+		18B766AA9CF49970E6FC9649 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB39ADDE529607109FC5B768 /* Pods-acknowledgements.markdown */,
-				03F3B65C2184C77F903EC15F /* Pods-acknowledgements.plist */,
-				13094C1C82017529CC18BF8A /* Pods-dummy.m */,
-				29A601535B88BC3EE1D50F7D /* Pods-environment.h */,
-				63FAD293F9A5460985964AC5 /* Pods-resources.sh */,
-				ECE623D21783306599897F97 /* Pods.debug.xcconfig */,
-				708FB25037DE76B3FB5979FA /* Pods.release.xcconfig */,
+				CFD978D619586D5A71B6B04A /* AFNetworking */,
+				988855C93FA0FD3B370FDAEC /* BDBOAuth1Manager */,
+				F81248FF2911F1DD5501D56F /* PixateFreestyle */,
 			);
 			name = Pods;
-			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		8AAE96E36B16AF11B335B8D0 /* NSURLConnection */ = {
+		1D6F89CED240B91118F19F0A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				79CB0ABFA0F46637CB062EDE /* AFHTTPRequestOperation.h */,
-				E64FC673C8BFA63455CFE81F /* AFHTTPRequestOperation.m */,
-				6CDB6D64340846923A62CFA4 /* AFHTTPRequestOperationManager.h */,
-				161DA8611E02078D4BBF212B /* AFHTTPRequestOperationManager.m */,
-				1D9285B1F05CB6EA370E9C0A /* AFURLConnectionOperation.h */,
-				653FBA4C08831A6F45EB2705 /* AFURLConnectionOperation.m */,
-			);
-			name = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		B10E20D922DCB758B0E59397 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B9B6064E4A992344CD0935C /* Pods-BDBOAuth1Manager.xcconfig */,
-				B99B5BDC07F1ED045817AD52 /* Pods-BDBOAuth1Manager-Private.xcconfig */,
-				63F7FE3CFA3C75A19C253601 /* Pods-BDBOAuth1Manager-dummy.m */,
-				B0D48B0F79B3508F395D20C2 /* Pods-BDBOAuth1Manager-prefix.pch */,
+				4E86E3E1C22968B3092DD294 /* Pods-BDBOAuth1Manager.xcconfig */,
+				22F1A946E12ECD1B43F0DD57 /* Pods-BDBOAuth1Manager-Private.xcconfig */,
+				8CFDF5CD10C0C691260DC3E7 /* Pods-BDBOAuth1Manager-dummy.m */,
+				48063BF9544BB70D83F70DD9 /* Pods-BDBOAuth1Manager-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-BDBOAuth1Manager";
 			sourceTree = "<group>";
 		};
-		B40D2B5276791C3D06E35196 /* Reachability */ = {
+		33A0F5C5952307FC1BCCA603 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				3A2987AB26B49938EEDC545C /* AFNetworkReachabilityManager.h */,
-				2C701F3EF8C1B4FB0E4AB0D9 /* AFNetworkReachabilityManager.m */,
+				0C56CD3DECF5E49267A1AF02 /* AFNetworkReachabilityManager.h */,
+				62525EFAAF2796E4977D88E0 /* AFNetworkReachabilityManager.m */,
 			);
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		B647EE7F8C2F5AF49B5309F3 = {
+		4198103A9AF32D0E4FA8E571 = {
 			isa = PBXGroup;
 			children = (
-				0B2836D4DF6C41EB9D180089 /* Podfile */,
-				E3D535106DCEA033348590F7 /* Frameworks */,
-				292286AF764D01A02297F408 /* Pods */,
-				FFF85E068BDADB8CE8A65083 /* Products */,
-				7F15D02F52FA719C48CF758F /* Targets Support Files */,
+				A6AFAADBF5BA34E40B92CC93 /* Podfile */,
+				54316FD43F0ACC4D74376A87 /* Frameworks */,
+				18B766AA9CF49970E6FC9649 /* Pods */,
+				FA471222C8BDE7DDC28C280C /* Products */,
+				0998C0EDBB45A3AAE826A7A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C0A5889EE8A9764B73A7628C /* iOS */ = {
+		4B8C9466E6BBE42BCC981F5F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B285EB9C9A025ECA688D44D1 /* CoreGraphics.framework */,
-				9DBD8757A28E94A179C70B9C /* Foundation.framework */,
-				991C494BF3A0E8C1470C1A53 /* MobileCoreServices.framework */,
-				77BCB3AF7F2D92D92D271AEC /* Security.framework */,
-				26B75DC06E7FBCB10557B5EC /* SystemConfiguration.framework */,
+				7A4C6C2C493D60D15C61B743 /* CoreGraphics.framework */,
+				43EDC6CD80229ED2372B37D5 /* CoreText.framework */,
+				AF3DF1922D908E1C5B29BB3C /* Foundation.framework */,
+				766E41F7653D8D0CBF0CEDFB /* MobileCoreServices.framework */,
+				D282C398EED9909BEF6DB974 /* PixateFreestyle.framework */,
+				42651662424B6264828940C2 /* QuartzCore.framework */,
+				351BD5349BCE0B420FA37774 /* Security.framework */,
+				354DC163B9CDC33AD677D71A /* SystemConfiguration.framework */,
+				3F97E468DD00F51BB9C1C1F6 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C3ACC2E51EED678972AC9867 /* BDBOAuth1Manager */ = {
+		525A384D32185C9EB14671B5 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				678ADDE8E3310EF9C6ACE2D8 /* BDBOAuth1RequestOperationManager.h */,
-				6E63F3D6DDBDCBF4CB771617 /* BDBOAuth1RequestOperationManager.m */,
-				0787D9FE54F1BDDE86D0CC6F /* BDBOAuth1RequestSerializer.h */,
-				F7B9ABEA963006D4D3E4B5F1 /* BDBOAuth1RequestSerializer.m */,
-				24C3BB56CD86B1DD7EF554AC /* BDBOAuth1SessionManager.h */,
-				7A8091BB57D8C91F964E55EE /* BDBOAuth1SessionManager.m */,
-				2687A34760744ED73E73DA31 /* NSDictionary+BDBOAuth1Manager.h */,
-				0EF6C55A5F50438E2B3C7469 /* NSDictionary+BDBOAuth1Manager.m */,
-				984AB1813D90C40C8F626038 /* NSString+BDBOAuth1Manager.h */,
-				92E1330B412506A38DA29B46 /* NSString+BDBOAuth1Manager.m */,
-				B10E20D922DCB758B0E59397 /* Support Files */,
+				2D1D6AC57EA1E6FF2840434F /* AFHTTPSessionManager.h */,
+				AFB1B950CCE81E0DCD620D0C /* AFHTTPSessionManager.m */,
+				E43870B86D689C1202D3E3BF /* AFURLSessionManager.h */,
+				974A7C989B9FD9AEA79F0883 /* AFURLSessionManager.m */,
 			);
-			path = BDBOAuth1Manager;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		E354F7CAB88BE618690FF6A0 /* Serialization */ = {
+		54316FD43F0ACC4D74376A87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AD6CE52A0976A9E501A05BF /* AFURLRequestSerialization.h */,
-				C80CE485716940118552C3A9 /* AFURLRequestSerialization.m */,
-				AF04D5694ED8D8B52034F8C7 /* AFURLResponseSerialization.h */,
-				89A6ED6B7E635D5254E0B72A /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		E3D535106DCEA033348590F7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0A5889EE8A9764B73A7628C /* iOS */,
+				4B8C9466E6BBE42BCC981F5F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FFF85E068BDADB8CE8A65083 /* Products */ = {
+		5A89D20822A352D86B485EB3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C44FE7F3D142E4A4AB7CD1B6 /* libPods.a */,
-				167D75E0527DD01CABFEBE33 /* libPods-AFNetworking.a */,
-				D0E92EAB9802B78514D25E6A /* libPods-BDBOAuth1Manager.a */,
+				77F1231D42F77B1948BF4503 /* Pods-PixateFreestyle.xcconfig */,
+				5B3A502FF9FAC28790EDEFA3 /* Pods-PixateFreestyle-Private.xcconfig */,
+				5D2B1021D5537BD71D40F3E9 /* Pods-PixateFreestyle-dummy.m */,
+				219B2493AD9559AB665C74AF /* Pods-PixateFreestyle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PixateFreestyle";
+			sourceTree = "<group>";
+		};
+		680BEC5D93C26978C72C0345 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				193D84F348CF47D3EAD8A364 /* AFSecurityPolicy.h */,
+				837DAAA84E82B5E465122483 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		7496C42ED31E05DBE3518A9D /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				05BCBB2FD3CCBBD1776A27A6 /* AFHTTPRequestOperation.h */,
+				A706435926FE64670E093653 /* AFHTTPRequestOperation.m */,
+				57CB4FE3DE19B0C697BC1F1B /* AFHTTPRequestOperationManager.h */,
+				7F9D4A921E3964555266D28D /* AFHTTPRequestOperationManager.m */,
+				5D5C0B8A6ED223D7FF3BF080 /* AFURLConnectionOperation.h */,
+				F5B031543858D35A2922CD3D /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		988855C93FA0FD3B370FDAEC /* BDBOAuth1Manager */ = {
+			isa = PBXGroup;
+			children = (
+				47CB9CA8525704CFA57F1C5A /* BDBOAuth1RequestOperationManager.h */,
+				8BF17F3DAA8F8D43629A1A8B /* BDBOAuth1RequestOperationManager.m */,
+				A7C1EBD26060953D03D7194F /* BDBOAuth1RequestSerializer.h */,
+				0AFCF3EF45255D4BA3348AEC /* BDBOAuth1RequestSerializer.m */,
+				57C8CCCC63D656E23C911998 /* BDBOAuth1SessionManager.h */,
+				837E4B7B793FC871F1059ADB /* BDBOAuth1SessionManager.m */,
+				DD4D7E570F0D487E86813A4D /* NSDictionary+BDBOAuth1Manager.h */,
+				2602B2604BF4FBED96CD6681 /* NSDictionary+BDBOAuth1Manager.m */,
+				FAC09B4074D89805A1EB5211 /* NSString+BDBOAuth1Manager.h */,
+				91340E764C027F004F0C0E7F /* NSString+BDBOAuth1Manager.m */,
+				1D6F89CED240B91118F19F0A /* Support Files */,
+			);
+			path = BDBOAuth1Manager;
+			sourceTree = "<group>";
+		};
+		9E3122E6C33218D68B9CAA3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0323C82F5CA499C84E4F90D4 /* Pods-AFNetworking.xcconfig */,
+				CB13D1F444772CA5CEA7FEF6 /* Pods-AFNetworking-Private.xcconfig */,
+				5F2B3174E3B6F669F782C8CE /* Pods-AFNetworking-dummy.m */,
+				80C849F448F03BE044B5D722 /* Pods-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AFNetworking";
+			sourceTree = "<group>";
+		};
+		B2A0A0CAD5EB7AAA8571B89C /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				C21DE21A5CB34912BE1BAF42 /* AFURLRequestSerialization.h */,
+				1495187F7C573CE9A7421C2B /* AFURLRequestSerialization.m */,
+				BA3C79F1D9977EB80F1B9B8A /* AFURLResponseSerialization.h */,
+				28FAF95C8960B20F64A95183 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		CFD978D619586D5A71B6B04A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7496C42ED31E05DBE3518A9D /* NSURLConnection */,
+				525A384D32185C9EB14671B5 /* NSURLSession */,
+				33A0F5C5952307FC1BCCA603 /* Reachability */,
+				680BEC5D93C26978C72C0345 /* Security */,
+				B2A0A0CAD5EB7AAA8571B89C /* Serialization */,
+				9E3122E6C33218D68B9CAA3D /* Support Files */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		EC294EE55219C882B148CC6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF9EA75F682F3AB45B38D44F /* Pods-acknowledgements.markdown */,
+				BFDEF542D27195E5C83FE403 /* Pods-acknowledgements.plist */,
+				4BC7D651DE68062B1F0AC841 /* Pods-dummy.m */,
+				5F773C7167A043441C2D657E /* Pods-environment.h */,
+				6A2F9BA0BE8384DA240961A1 /* Pods-resources.sh */,
+				80E64BD2F4B67E0E20573679 /* Pods.debug.xcconfig */,
+				929FE9937BB8981E2E1987A0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		F81248FF2911F1DD5501D56F /* PixateFreestyle */ = {
+			isa = PBXGroup;
+			children = (
+				D462744CFD568EDE5CB74877 /* DDASLLogger.h */,
+				12065DBD706C297ACA605FC0 /* DDAbstractDatabaseLogger.h */,
+				8A60FBE8DFCE525D32747B86 /* DDFileLogger.h */,
+				1852683F6B692791474CB664 /* DDLog.h */,
+				CA9C89C6476E0078E6398AD1 /* DDTTYLogger.h */,
+				71F061A3531D13E98E8B1D6D /* NSArray+Reverse.h */,
+				952ED65115BCA5347EC14279 /* NSDictionary+PXCSSEncoding.h */,
+				4C72EE0AD31F40F7CD5B5750 /* NSDictionary+PXObject.h */,
+				EF56FA36D8440BEB1225AE33 /* NSMutableArray+QueueAdditions.h */,
+				ED5BE47843B6E32799CF7202 /* NSMutableArray+StackAdditions.h */,
+				BA292F222A3CCE2E3277A6D8 /* NSMutableDictionary+PXObject.h */,
+				E3DEC4F78420B6CADF23A738 /* NSObject+PXClass.h */,
+				231DF0C35ED6566DDCC2BD4C /* NSObject+PXStyling.h */,
+				C910A551456F3EC2C74EC58C /* NSObject+PXSubclass.h */,
+				B951B44FA9C40F55E1E6D448 /* NSScanner+PXFloat.h */,
+				073A9283A64DBF66B04B4292 /* PXAdjacentSiblingCombinator.h */,
+				D63FB78FE47509E394DBAE51 /* PXAnimationInfo.h */,
+				810D281D7DC3EA1815923BED /* PXAnimationPropertyHandler.h */,
+				19C7B64452984C1BFF01A5DC /* PXAnimationStyler.h */,
+				A742B9CAA8564099B7FBD81C /* PXArc.h */,
+				C7F2CC661928FC83BAAC8B0E /* PXArrowRectangle.h */,
+				6C0656AB72D57101BB2AD496 /* PXAttributeSelector.h */,
+				09077A1241D0B87AA8661DA9 /* PXAttributeSelectorOperator.h */,
+				989908E31AD217BF3FF3A18A /* PXAttributedTextStyler.h */,
+				D7D6BAB04436EF9747F884AF /* PXBarMetricsAdjustmentStyler.h */,
+				484B06E3B553C1703CAB6587 /* PXBarShadowStyler.h */,
+				F9BA5329AD6AC221FBE30BAC /* PXBorderInfo.h */,
+				E1027691B87F50C9BAC4E873 /* PXBorderStyler.h */,
+				E4EAD5B58933DAF4988DC66C /* PXBoundable.h */,
+				D340CC8DD7B394B38E1D6958 /* PXBoxModel.h */,
+				F6078F4F81D0CE2F019CB6DA /* PXBoxShadowStyler.h */,
+				3F8DE80A531531B54F56B243 /* PXCacheManager.h */,
+				B2BAC26D6838DFFA310FA587 /* PXCharacterMatcher.h */,
+				84EAF5C7E43739E8D13BED98 /* PXChildCombinator.h */,
+				AB7982E3FC8A02F5FD40598A /* PXCircle.h */,
+				58BC1E80AB90938DB82D9615 /* PXClassSelector.h */,
+				1461741981CBE37EEC5F2D8B /* PXClassUtils.h */,
+				F69CBD6FB0AA428C7D911C39 /* PXColorStyler.h */,
+				292681006A1AB6B166943231 /* PXCombinator.h */,
+				BA6042307B0931152B048A9F /* PXCombinatorBase.h */,
+				ED40401B123F1DD19B903CB2 /* PXDeclaration.h */,
+				D56D5317B550F3B2DAE2F12D /* PXDeclarationContainer.h */,
+				5C5F2A9C63513C327B7F41D2 /* PXDelegateLogger.h */,
+				E321E6DCBAFA619D70D98C76 /* PXDescendantCombinator.h */,
+				46E921B99750A3B1C2EB72E4 /* PXDimension.h */,
+				98C00005C62B90439A86423E /* PXEllipse.h */,
+				2FCFC5EE4EA454F76B4684DB /* PXEllipticalArc.h */,
+				F86ED673A19AA39D01D589AA /* PXFileFunctionLogFormatter.h */,
+				46E3C72C74B8B44685168D71 /* PXFileUtils.h */,
+				EEBF49901F6FD92D8C907931 /* PXFileWatcher.h */,
+				AB047D27F3CE7A6B6ABF01D6 /* PXFillStyler.h */,
+				EDBBFC49DA13D3C401DE23CF /* PXFontEntry.h */,
+				8805E57E51693CFD1DDA29EC /* PXFontInfo.h */,
+				B2F0D727B0E27EC30A534FCE /* PXFontRegistry.h */,
+				84F98F70C7244FB8F829162B /* PXFontStyler.h */,
+				BE99C652CAB6B51CCE2B4915 /* PXForceLoadCGCategories.h */,
+				5D550A991EE26DC29C61624D /* PXForceLoadControls.h */,
+				2299B97FBD50B2EE9CD0FEEF /* PXForceLoadPixateCategories.h */,
+				9E44B642085A1882EC555C73 /* PXForceLoadStylingCategories.h */,
+				7A89411585711E737F1E749D /* PXForceLoadVirtualCategories.h */,
+				81A93EB1FD09F3E2BE45A185 /* PXGenericStyler.h */,
+				6A5A6ACB50DADA79A4002ECE /* PXGestalt.h */,
+				AA4813E470A0ECEB73C5CACB /* PXGradient.h */,
+				23942D9FAB704E12B246A790 /* PXGraphics.h */,
+				67924501B67DF552B579F953 /* PXIdSelector.h */,
+				CD37BB60A2F6EC490E869821 /* PXImagePaint.h */,
+				FBFD397E48B013EFC5EB00A1 /* PXImageUtils.h */,
+				FA5F6BDBA1CB75470723635E /* PXInsetStyler.h */,
+				06BEED66E1E73B2FA3B5CCD8 /* PXKeyframe.h */,
+				A785DC36F930DA35A4BE70B1 /* PXKeyframeAnimation.h */,
+				D152CA262A5FB197D8BE7CD4 /* PXKeyframeBlock.h */,
+				13835ECA401328A6C0885194 /* PXLayoutStyler.h */,
+				AE6EBD0C2EB7A0055F5C7837 /* PXLexemeCreator.h */,
+				08FDC3D247783C8E3744494E /* PXLine.h */,
+				57A6AB0CC9A80C2BD7DE617F /* PXLinearGradient.h */,
+				C15AE3058C34747BD98F49F7 /* PXLog.h */,
+				FEB88FF9A60F25C59B0F545E /* PXLoggingUtils.h */,
+				25E98ECADB00E17295CE5AF0 /* PXMKAnnotationContainerView.h */,
+				C60B298DF2FAC1921BB6BF6D /* PXMKAnnotationView.h */,
+				B34314524AC2401A2A61AFF5 /* PXMKMapView.h */,
+				28E3723FDDFF7B9529D87F41 /* PXMPVolumeView.h */,
+				3F14EA8528540A8AEAC146E2 /* PXMacrosCommon.h */,
+				610735745E00EAAD7B687819 /* PXMath.h */,
+				E2934772F80298E4D57DEC7F /* PXMediaExpression.h */,
+				02E43426F3A03A83AD203660 /* PXMediaExpressionGroup.h */,
+				9417CD7ACA0EFC7BD84D7172 /* PXMediaGroup.h */,
+				BD934F79A4E4B7B6405E0D75 /* PXNamedMediaExpression.h */,
+				0304E47716A7F559DA747339 /* PXNonScalingStroke.h */,
+				DB893DA3553D5BAE2EB8E0C3 /* PXNotPseudoClass.h */,
+				18E96774C7B3F7BEBFC33190 /* PXNotificationInfo.h */,
+				0C3FF3C693EE7B2432FC1408 /* PXNotificationManager.h */,
+				67DAEBFD89A0039A1D59655C /* PXNumberMatcher.h */,
+				F1AEBAAB80E1841E1A322891 /* PXOffsets.h */,
+				0287516B44D1E7FB86CF0EE7 /* PXOpacityStyler.h */,
+				B4CCD1AFF5A1EB419CD348ED /* PXPaint.h */,
+				F07F8888499618D3658F1BF6 /* PXPaintGroup.h */,
+				85D7B9B87E8EB91A1ECA3D0F /* PXPaintStyler.h */,
+				DE6EAFB2DD0B267F7BFC1DD2 /* PXPaintable.h */,
+				34AD57D699960D3CE4EBFF6B /* PXPath.h */,
+				636581D2480D5A5DE179301C /* PXPatternMatcher.h */,
+				6E1786B03160F2E8EFC8AD60 /* PXPie.h */,
+				509266A5C0A4A46265A2B9EE /* PXPolygon.h */,
+				D5503B16BC729631195E5E6B /* PXProxy.h */,
+				F2CBD6AB342E46601A2E1423 /* PXPseudoClassFunction.h */,
+				DDB8DEE288DC49BB4A846D9C /* PXPseudoClassPredicate.h */,
+				B52A1BAC0DA3977EA9F2F36F /* PXPseudoClassSelector.h */,
+				83495944F26B992CA7D505E0 /* PXRadialGradient.h */,
+				50EF1AB25C7501FD249EB887 /* PXRectangle.h */,
+				EAC811684E7C64FE23BA1810 /* PXRenderable.h */,
+				EDC7171A6EB9E72AFF82AE2F /* PXRuleSet.h */,
+				5C14E8CC40FCB54E9D008338 /* PXRuntimeUtils.h */,
+				DBCC5F2DD261FEB79C2C02DD /* PXSVGLoader.h */,
+				8879BA4B2D11C5195BFAEB9E /* PXSelector.h */,
+				2FDC249B9797D54577BD68E0 /* PXShadow.h */,
+				639201DCD842001A676B20AD /* PXShadowGroup.h */,
+				432CE393357E1BD55F3B5619 /* PXShadowPaint.h */,
+				4408A67D021BFE72D7F537FF /* PXShape.h */,
+				88015190274C3FFAFBF59DBB /* PXShapeDocument.h */,
+				D85F7AD32A84AF967441636B /* PXShapeGroup.h */,
+				CAF85560AE1E550FADBD7006 /* PXShapeStyler.h */,
+				E24921957EBB3036CC09E5D5 /* PXShapeView.h */,
+				BECDCA16DF7C61BD4F5F90D0 /* PXSiblingCombinator.h */,
+				C375FBF207816C323DF1B59A /* PXSolidPaint.h */,
+				9565AC40EBF5C7D981C24B96 /* PXSourceEmitter.h */,
+				4C1A7EDE3EF69D972B4E98EA /* PXSourceWriter.h */,
+				7E6D7EFE0FAA2DB0AB67697E /* PXSpecificity.h */,
+				E840339BD717898613AE7891 /* PXStroke.h */,
+				259592ABFDEC347FB18D3A13 /* PXStrokeGroup.h */,
+				C57BB822C58FEBD6374E357A /* PXStrokeRenderer.h */,
+				BE49A4349A4FC311413DB742 /* PXStrokeStroke.h */,
+				4FDEE07B22092D43C248A898 /* PXStyleInfo.h */,
+				7077C0E60522DFA212577ACF /* PXStyleTreeInfo.h */,
+				5ED85B4BD84E81D6ED4A0BCA /* PXStyleUtils.h */,
+				097A9D136FBE783C42DCDF7B /* PXStyleable.h */,
+				A0DCC8DCA37BDCB6960FEB49 /* PXStyler.h */,
+				784058175078414A65F15AA1 /* PXStylerBase.h */,
+				EA0A4980AA2AB7D1CDA18299 /* PXStylerContext.h */,
+				9786090799E3CDF12F126671 /* PXStylesheet.h */,
+				92B385424F8D47351B9E8763 /* PXStylesheet-Private.h */,
+				45364E464E2835960A00D839 /* PXStylesheetLexeme.h */,
+				53E374826350453AA4C0275C /* PXStylesheetLexer.h */,
+				3B84CCF7851557DC17CCA699 /* PXStylesheetParser.h */,
+				5AAAA61F063B1FA09D35BD66 /* PXStylesheetTokenType.h */,
+				4AF9D424788E01EF5ACEAA94 /* PXStylingMacros.h */,
+				E6FCD07D0C570ACE6C860158 /* PXText.h */,
+				C7D8B417A748B3B75A517935 /* PXTextContentStyler.h */,
+				D503E8877CC3A62D2FA37358 /* PXTextShadowStyler.h */,
+				D5039C048A5B6E08120B1743 /* PXTitaniumMacros.h */,
+				D35D6B6AA25D392DB0AA1B59 /* PXTransformLexer.h */,
+				1B6776BBAC0B265EE9F5A11A /* PXTransformParser.h */,
+				C3EDC11D63D7746FE2E9B29B /* PXTransformStyler.h */,
+				D30BD9716254B600B7BAFCAE /* PXTransformTokenType.h */,
+				40E366C7E7C5B5607E7DCCB6 /* PXTransitionRuleSetInfo.h */,
+				5511C151ADB24A7CA16A6D9D /* PXTransitionStyler.h */,
+				C4FC4CA12F9FEF3493485EAF /* PXTypeSelector.h */,
+				2D7E17448BA568A40251B1FB /* PXUIActionSheet.h */,
+				805D39EBBF8B80444D2D29AB /* PXUIActivityIndicatorView.h */,
+				515B2997C525B4F7A201AC03 /* PXUIButton.h */,
+				BFDA299EE37EABC1B5730ECE /* PXUICollectionView.h */,
+				7CC24DA3948833E029EE1368 /* PXUICollectionViewCell.h */,
+				21FD3B1ABFEEFD218808B893 /* PXUICollectionViewDelegate.h */,
+				9D1D32BF142D0FD55F52F60C /* PXUIDatePicker.h */,
+				13DE2548B560D34E1D50DFFF /* PXUIImageView.h */,
+				1AA262FD98E01F3C971E8E32 /* PXUILabel.h */,
+				BDCB768AE9A3758E663F1F25 /* PXUILayoutContainerView.h */,
+				5D57EC93FC75807B717EDB60 /* PXUINavigationBar.h */,
+				2463122B25825950FF0155B6 /* PXUIPageControl.h */,
+				6352DAFA345E54AD69D9ACB1 /* PXUIPickerView.h */,
+				BEDADD623E585D3F7E781EE1 /* PXUIPickerViewDelegate.h */,
+				39936DDBECB98360510CB21D /* PXUIProgressView.h */,
+				F4B2BDE912B8AD04EFD80141 /* PXUIRefreshControl.h */,
+				BF8A47B426DB9836E03E7206 /* PXUIScrollView.h */,
+				F1BD7CD03C624DE83B2457EF /* PXUISearchBar.h */,
+				2EDA41EE74DAC85326994453 /* PXUISegmentedControl.h */,
+				38272A3625C90FBE85F40317 /* PXUISlider.h */,
+				28C730D94B878EB60D97F52D /* PXUIStepper.h */,
+				AE33BCD5FA21B46B8C2647CA /* PXUISwitch.h */,
+				3D530B2F8F6A65DC73CDA71B /* PXUITabBar.h */,
+				D2B5EDDBC92793DC6DA57389 /* PXUITableView.h */,
+				8FF2B54D52034E038A127628 /* PXUITableViewCell.h */,
+				A32BB68CF17C32E39FA0C118 /* PXUITableViewCellContentView.h */,
+				6A00FFE2005B584ADE96D965 /* PXUITableViewDelegate.h */,
+				C0B71E529D053495E37F7B25 /* PXUITableViewHeaderFooterView.h */,
+				75324E037862337E324801C8 /* PXUITextField.h */,
+				C786A26C8126DDF024D3A6BF /* PXUITextView.h */,
+				4C0A689842DC71B1DF710EEE /* PXUIToolbar.h */,
+				7A889BA328BDA69FB134E09E /* PXUIView.h */,
+				3A8DD05F1E6522E544A66E74 /* PXUIWebView.h */,
+				1B22159AF53858E2C829D2E7 /* PXUIWindow.h */,
+				CDA978AD006E899659DA6BE9 /* PXURLMatcher.h */,
+				F49B5548EE537BA80CB0F764 /* PXUtils.h */,
+				E20B12042DD6DE42352D95C1 /* PXValue.h */,
+				0C1FAABC9F98E4DC6BD53003 /* PXValueParser.h */,
+				918A727E4088CE93C8AD1F48 /* PXVector.h */,
+				0443BA0D72993B52610ECAF4 /* PXViewUtils.h */,
+				23BACB8E6B63F013492F8336 /* PXVirtualControl.h */,
+				19BA4A4920B0E655DED06747 /* PXVirtualStyleableControl.h */,
+				7BEF600E96730E60BB93EA6A /* PXWeakWrapper.h */,
+				BA9103FE18C3EF53998C2A9C /* PXWordMatcher.h */,
+				834CBB55849D783C82A3BAA7 /* PixateFreestyle.h */,
+				CF7101BC708ED16311ED5812 /* PixateFreestyle-Private.h */,
+				C43FA0F4B4FCA6CAB7477E5D /* PixateFreestyleConfiguration.h */,
+				2889EF97B9657B1EAEA7C96B /* UIBarButtonItem+PXStyling.h */,
+				B2F7BC284802DCD3E1C5DD85 /* UIBarButtonItem+PXStyling-Private.h */,
+				77CB1FA343A5199ABFCBCDD1 /* UIBarItem+PXStyling.h */,
+				79DB0EE772D65C042A71B683 /* UIColor+PXColors.h */,
+				BEA109D5CA8F9C05CDAA911F /* UINavigationItem+PXStyling.h */,
+				9A48C9F2DE969D9719478CF4 /* UITabBarItem+PXStyling.h */,
+				066E4E4C05BFA706D107AD49 /* UIView+PXStyling.h */,
+				5F8291F9E2CC6E4B62B0CB94 /* UIView+PXStyling-Private.h */,
+				3797C3178750B83F2DC64DBE /* Version.h */,
+				B4FCC234DE5F2C13F26EE9FD /* objc.h */,
+				5A89D20822A352D86B485EB3 /* Support Files */,
+			);
+			path = PixateFreestyle;
+			sourceTree = "<group>";
+		};
+		FA471222C8BDE7DDC28C280C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88B4EF768DAA4A9DF1F8CA7C /* libPods.a */,
+				8E5A49BDB5A8F2F8F9B30C93 /* libPods-AFNetworking.a */,
+				97C408999DA6723CDF5A34BF /* libPods-BDBOAuth1Manager.a */,
+				67D8F4E64135877DBCDCF392 /* libPods-PixateFreestyle.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,44 +1040,263 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2226F7935F1D149230332659 /* Headers */ = {
+		0FFE9CBA0A85372BA58D4A3F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD5375E44599FA8F0935EEC /* BDBOAuth1RequestOperationManager.h in Headers */,
-				FEB67A0DC5E0C0053FE68D67 /* BDBOAuth1RequestSerializer.h in Headers */,
-				96CB55D432B0E54E88B7190A /* BDBOAuth1SessionManager.h in Headers */,
-				9871D7BF7E66BADFE76CDCA1 /* NSDictionary+BDBOAuth1Manager.h in Headers */,
-				B5A5936466721EECDDAAC402 /* NSString+BDBOAuth1Manager.h in Headers */,
+				7D62386F9021B74EDCED76EA /* DDASLLogger.h in Headers */,
+				703DE101E9DA51418531713C /* DDAbstractDatabaseLogger.h in Headers */,
+				73E5863592831C3F3415EDFF /* DDFileLogger.h in Headers */,
+				7BC664E0D08118A5E35D5B7E /* DDLog.h in Headers */,
+				86E4C4F0E7F8D4F099242B48 /* DDTTYLogger.h in Headers */,
+				0E1E298CB3499DE07DACB017 /* NSArray+Reverse.h in Headers */,
+				2E113ADC43B676E21084213E /* NSDictionary+PXCSSEncoding.h in Headers */,
+				9F728ECD0E6A6495C5A9FCCE /* NSDictionary+PXObject.h in Headers */,
+				BAC340D2123D19F66CDE40E8 /* NSMutableArray+QueueAdditions.h in Headers */,
+				F1648F5BDF17390C8761778F /* NSMutableArray+StackAdditions.h in Headers */,
+				3544C4D8842D2980D916D777 /* NSMutableDictionary+PXObject.h in Headers */,
+				CD4DCB6BE96DD41966F9B1E3 /* NSObject+PXClass.h in Headers */,
+				E4CC17E46C1C45C2B71146F9 /* NSObject+PXStyling.h in Headers */,
+				72C7225DFEE696E6BC00010D /* NSObject+PXSubclass.h in Headers */,
+				58C919FAC528811A49EA7785 /* NSScanner+PXFloat.h in Headers */,
+				C8A8F4C83C134C65F206DCAF /* PXAdjacentSiblingCombinator.h in Headers */,
+				CBC6E7EE56AF564C0C9871A6 /* PXAnimationInfo.h in Headers */,
+				72609049751793B6F71A5DB5 /* PXAnimationPropertyHandler.h in Headers */,
+				337B0E3FF06FEA916386A8C7 /* PXAnimationStyler.h in Headers */,
+				B3177105D16172142E298E29 /* PXArc.h in Headers */,
+				178160D0F2A96CBCC6098B41 /* PXArrowRectangle.h in Headers */,
+				65DD500E690B0150257E11D3 /* PXAttributeSelector.h in Headers */,
+				5C0830BBBED62CFC285B3A6C /* PXAttributeSelectorOperator.h in Headers */,
+				C6997E89A1EEC976C7E36451 /* PXAttributedTextStyler.h in Headers */,
+				E8F34099D95AE2503320B364 /* PXBarMetricsAdjustmentStyler.h in Headers */,
+				1C00B0818D8C11EF80CC1799 /* PXBarShadowStyler.h in Headers */,
+				043BC870B1CD1B061F4CF1D8 /* PXBorderInfo.h in Headers */,
+				B83F68AAD234A9A4CCAC417A /* PXBorderStyler.h in Headers */,
+				B34294A0B6DE148EA4BC2731 /* PXBoundable.h in Headers */,
+				4FCE19A1EF9DD61DCF916DDE /* PXBoxModel.h in Headers */,
+				26CF73442DB74C039FB6302B /* PXBoxShadowStyler.h in Headers */,
+				BC720D4FF2C80EDEB11910AD /* PXCacheManager.h in Headers */,
+				E8F1FE38F2C3B9A3D9AEF38C /* PXCharacterMatcher.h in Headers */,
+				946707C89CC0ABD2D0A42725 /* PXChildCombinator.h in Headers */,
+				7EBC9DD01B67FD5B73E8A659 /* PXCircle.h in Headers */,
+				E2C8C06C251C53B6A59FFE4B /* PXClassSelector.h in Headers */,
+				C4F20E354F1D69BE196B20D3 /* PXClassUtils.h in Headers */,
+				351D8A9254121C6BB0C5ED03 /* PXColorStyler.h in Headers */,
+				08D6245CCBFA1D6BFA345A5A /* PXCombinator.h in Headers */,
+				9C702D47A847120406A19ED6 /* PXCombinatorBase.h in Headers */,
+				4F16FDFAEA0E90F0665FC4B9 /* PXDeclaration.h in Headers */,
+				AF83169EEC0F22090AB847E0 /* PXDeclarationContainer.h in Headers */,
+				57902AE8365CC1E67F5EA23E /* PXDelegateLogger.h in Headers */,
+				6F56003EE9166A991600C2F9 /* PXDescendantCombinator.h in Headers */,
+				AB88A3B82C61EABF7949A458 /* PXDimension.h in Headers */,
+				16A8150D9AAD4A18D72AE810 /* PXEllipse.h in Headers */,
+				B9032ACA95C205B8F4326078 /* PXEllipticalArc.h in Headers */,
+				8FFA3A4B0847A35D11F3FB8C /* PXFileFunctionLogFormatter.h in Headers */,
+				4BA7DA5997A8F5F89106D20F /* PXFileUtils.h in Headers */,
+				E99CBC77AC185CAFD22D77F9 /* PXFileWatcher.h in Headers */,
+				C6CAF3861ECD82AC1467B071 /* PXFillStyler.h in Headers */,
+				D57881A075D6CA5600D9D225 /* PXFontEntry.h in Headers */,
+				BBC93A60747AE4D1A052750D /* PXFontInfo.h in Headers */,
+				64E8256ED994A413E9DCE0AB /* PXFontRegistry.h in Headers */,
+				039B461E54B5154D80C1C3D6 /* PXFontStyler.h in Headers */,
+				51BE095EAAB78E1ADABF1BA2 /* PXForceLoadCGCategories.h in Headers */,
+				441072BAE04315210B641488 /* PXForceLoadControls.h in Headers */,
+				5B8089B6D142F169A3E135F7 /* PXForceLoadPixateCategories.h in Headers */,
+				F6D3F0ADA1578038C085AFB4 /* PXForceLoadStylingCategories.h in Headers */,
+				3197FAB516B0E4AAD9E72DCC /* PXForceLoadVirtualCategories.h in Headers */,
+				6DD74BD5DD8D457B5E041912 /* PXGenericStyler.h in Headers */,
+				83DE1ED2620C7E1D7595D3C6 /* PXGestalt.h in Headers */,
+				CD979C195B7CA9D353A86153 /* PXGradient.h in Headers */,
+				AE0F8586668293F90185AA01 /* PXGraphics.h in Headers */,
+				1402C660200CC50894EFE1B3 /* PXIdSelector.h in Headers */,
+				70A9D3FE0589148115B84096 /* PXImagePaint.h in Headers */,
+				7311EB46ACA91382625F620A /* PXImageUtils.h in Headers */,
+				0C42AF012E867E247CEB602C /* PXInsetStyler.h in Headers */,
+				1C9141E298222B1AB328E7F8 /* PXKeyframe.h in Headers */,
+				F5D82D5FD0FD1457CB71E513 /* PXKeyframeAnimation.h in Headers */,
+				8F9592AFD0A6E53CAD6C1ECA /* PXKeyframeBlock.h in Headers */,
+				8EE988B263A6E3FE2332E5A4 /* PXLayoutStyler.h in Headers */,
+				2870C73E29C33C783E752045 /* PXLexemeCreator.h in Headers */,
+				BC61F693B7CDB41216710825 /* PXLine.h in Headers */,
+				CC9DD694A984770129437115 /* PXLinearGradient.h in Headers */,
+				7114AC9878D16F3226357257 /* PXLog.h in Headers */,
+				E2D687050E3B1F375B03C80D /* PXLoggingUtils.h in Headers */,
+				5A6907365D39CDEC6568D9AC /* PXMKAnnotationContainerView.h in Headers */,
+				78B5695F6FBA32579E554C09 /* PXMKAnnotationView.h in Headers */,
+				9FEDBBEA27480E0B9E5BFD9D /* PXMKMapView.h in Headers */,
+				2D8AED5CB2A52A68F5A50A0A /* PXMPVolumeView.h in Headers */,
+				D81116B31E97CD5815C5E35A /* PXMacrosCommon.h in Headers */,
+				23E10FF10B03D80D0212D5BB /* PXMath.h in Headers */,
+				D6F4146B4508BED415D4610C /* PXMediaExpression.h in Headers */,
+				2C81ACCD8F2A1A13B449CD6E /* PXMediaExpressionGroup.h in Headers */,
+				77E6D0EA182E10AEF30E7F8B /* PXMediaGroup.h in Headers */,
+				93C2F74897A588CCDEF96F2A /* PXNamedMediaExpression.h in Headers */,
+				1F575A3C7C480FF8D3845C90 /* PXNonScalingStroke.h in Headers */,
+				B948DA40C60A7A995B41BFA9 /* PXNotPseudoClass.h in Headers */,
+				E1F37ED22BED97A81EDC9682 /* PXNotificationInfo.h in Headers */,
+				A4127F0E8860EEB14BF76699 /* PXNotificationManager.h in Headers */,
+				87AACB755FAC21DB76033823 /* PXNumberMatcher.h in Headers */,
+				4293612839F3287F09BFC609 /* PXOffsets.h in Headers */,
+				E61BF6074BFEB31CB870C7B8 /* PXOpacityStyler.h in Headers */,
+				69B812D36BD521E77A276105 /* PXPaint.h in Headers */,
+				E7868F5A82327F5E30E5A936 /* PXPaintGroup.h in Headers */,
+				C4DC08A71ABE87C56AD79231 /* PXPaintStyler.h in Headers */,
+				624DBF6E291E0D1BCEE0BB55 /* PXPaintable.h in Headers */,
+				3BD8F1D35E5752D284AA711F /* PXPath.h in Headers */,
+				E24DBFE2234C0C20700E9AF4 /* PXPatternMatcher.h in Headers */,
+				F370434A2311E8A46306531C /* PXPie.h in Headers */,
+				36AFBE2C0CD908A770F0216C /* PXPolygon.h in Headers */,
+				9150DEB82958EE3AE24B1786 /* PXProxy.h in Headers */,
+				9037A317EC2E7D151CF8A45B /* PXPseudoClassFunction.h in Headers */,
+				2293653EF1AE4ECFE613E4B9 /* PXPseudoClassPredicate.h in Headers */,
+				40958D1D0FDCAB2344A72A0E /* PXPseudoClassSelector.h in Headers */,
+				05F93FC032907240A997A310 /* PXRadialGradient.h in Headers */,
+				775B50A27BADA749DD2E58D9 /* PXRectangle.h in Headers */,
+				2414E6703D4B828472F5F795 /* PXRenderable.h in Headers */,
+				86105B6D0BE7E516AF3B2D4D /* PXRuleSet.h in Headers */,
+				139F2E93B12FA2E1C4184467 /* PXRuntimeUtils.h in Headers */,
+				27996DF94B7BE51FE4B1F8FB /* PXSVGLoader.h in Headers */,
+				0C44E41C8FD457D008B5FDEF /* PXSelector.h in Headers */,
+				048D3E7F182AEC4FCFBDE76D /* PXShadow.h in Headers */,
+				001EFFFA930F2B7227733FDD /* PXShadowGroup.h in Headers */,
+				94974A633249D421D5A8AAB1 /* PXShadowPaint.h in Headers */,
+				166061E31A92881813E8A117 /* PXShape.h in Headers */,
+				933477E477885733D1C4729A /* PXShapeDocument.h in Headers */,
+				22EFF4058B55F44C5D6C36FC /* PXShapeGroup.h in Headers */,
+				5F7CAD2E325D6ED81CBB9525 /* PXShapeStyler.h in Headers */,
+				70993BC1B9F020F3588225A2 /* PXShapeView.h in Headers */,
+				A028C5CB4FAA92094D157A7C /* PXSiblingCombinator.h in Headers */,
+				99D99343F5A51AA2E2BD9921 /* PXSolidPaint.h in Headers */,
+				E7373555C25299BD8531F747 /* PXSourceEmitter.h in Headers */,
+				EE13EECE011DFB27E724F1F5 /* PXSourceWriter.h in Headers */,
+				ED443547AC5F260F9616AFE1 /* PXSpecificity.h in Headers */,
+				FB1D411A56A0D660AB60A3AF /* PXStroke.h in Headers */,
+				1201A57F6285841B5FD15580 /* PXStrokeGroup.h in Headers */,
+				B76C566E52F505DBF1F4A2AD /* PXStrokeRenderer.h in Headers */,
+				BDCB577D018D00E52B78460E /* PXStrokeStroke.h in Headers */,
+				D0145B655454182CEB82F66B /* PXStyleInfo.h in Headers */,
+				2A4FDF2CA5AFEFE64EFE76CF /* PXStyleTreeInfo.h in Headers */,
+				56F78C93E8C56F753747E93F /* PXStyleUtils.h in Headers */,
+				87B64A8C0A65B03D4290E15D /* PXStyleable.h in Headers */,
+				C4A36151C7C9F9DF4C7E7B5F /* PXStyler.h in Headers */,
+				3001A93923BCD51D8FCB8642 /* PXStylerBase.h in Headers */,
+				19FDDCB312BA9BEF8A22F095 /* PXStylerContext.h in Headers */,
+				BC559FC553BF9A6B2465B467 /* PXStylesheet-Private.h in Headers */,
+				DB5F82C331BC56FB90339E4E /* PXStylesheet.h in Headers */,
+				9406A2DAD1845B09FBF3EC6E /* PXStylesheetLexeme.h in Headers */,
+				5E107D8D24E2AE466F1E0C7C /* PXStylesheetLexer.h in Headers */,
+				D549BDB493DB11D18D9ACBD3 /* PXStylesheetParser.h in Headers */,
+				91DDF9AE8625545DA1478B90 /* PXStylesheetTokenType.h in Headers */,
+				9CC6EB911858D982AC7081FD /* PXStylingMacros.h in Headers */,
+				5FD521AD3B461BB69F5212BA /* PXText.h in Headers */,
+				4141184F04010BABB67B017B /* PXTextContentStyler.h in Headers */,
+				B193AAF1A4E606BF6CF4D7F6 /* PXTextShadowStyler.h in Headers */,
+				6A072ABFC99CA6B78362E2A6 /* PXTitaniumMacros.h in Headers */,
+				978C0D994E988013AFFBBE59 /* PXTransformLexer.h in Headers */,
+				7EEC2A73A30DF59E30586FB2 /* PXTransformParser.h in Headers */,
+				52E976DBDA4D283AA5D690F2 /* PXTransformStyler.h in Headers */,
+				80FB922D50F28AF54ED0AB0A /* PXTransformTokenType.h in Headers */,
+				DC95D38978E55AFD3117BC0D /* PXTransitionRuleSetInfo.h in Headers */,
+				CEDE7AC9126FBD1410EE3191 /* PXTransitionStyler.h in Headers */,
+				BD6951F90C53904D96051BB1 /* PXTypeSelector.h in Headers */,
+				BB08A2BED9818E07E6A65670 /* PXUIActionSheet.h in Headers */,
+				39F9E2B0FBF68DE28B8F12E1 /* PXUIActivityIndicatorView.h in Headers */,
+				37AE78CAB90822165283470E /* PXUIButton.h in Headers */,
+				A3D944848BD71C25512CFF05 /* PXUICollectionView.h in Headers */,
+				A9CB5586668668CA314B01B0 /* PXUICollectionViewCell.h in Headers */,
+				71EBEE4C0512A97597A91126 /* PXUICollectionViewDelegate.h in Headers */,
+				FC363FE1014DA4C82EE3F64C /* PXUIDatePicker.h in Headers */,
+				082A14DFAB03F0EA7333FDAA /* PXUIImageView.h in Headers */,
+				64C9374761B8294825E1D94D /* PXUILabel.h in Headers */,
+				C0E15CE6A8C6D058F689FC15 /* PXUILayoutContainerView.h in Headers */,
+				1A2AB84F1D000B91CD11BD49 /* PXUINavigationBar.h in Headers */,
+				26B5B507D47881F48A98B94B /* PXUIPageControl.h in Headers */,
+				8571B3BE8559C809BB87711B /* PXUIPickerView.h in Headers */,
+				11E720B9514B3E592DA755A4 /* PXUIPickerViewDelegate.h in Headers */,
+				812F85A12F3B1598A574D20E /* PXUIProgressView.h in Headers */,
+				E651DD9FB0569A3D545BDA71 /* PXUIRefreshControl.h in Headers */,
+				83BCF68E95CDAD90B5841D1A /* PXUIScrollView.h in Headers */,
+				6D70552A395811B31FF55803 /* PXUISearchBar.h in Headers */,
+				05B03F9B8884319DBCCBDB5D /* PXUISegmentedControl.h in Headers */,
+				B10CF75AA8C01C6F494B4A12 /* PXUISlider.h in Headers */,
+				B8BF417EDE5FF956C2773B2E /* PXUIStepper.h in Headers */,
+				270303833CD5C6AA89618FE2 /* PXUISwitch.h in Headers */,
+				15DE1E9108C527E3791744F6 /* PXUITabBar.h in Headers */,
+				DA7CD22D864C1C9AE75E1EDC /* PXUITableView.h in Headers */,
+				3DCBBD4918FF81B3A838CBFF /* PXUITableViewCell.h in Headers */,
+				2BB35C1F2135ED84DD8123CF /* PXUITableViewCellContentView.h in Headers */,
+				378B84A25584B36DF9287C00 /* PXUITableViewDelegate.h in Headers */,
+				61E2ACBBD414FE7D5FB5AF4C /* PXUITableViewHeaderFooterView.h in Headers */,
+				EC77E18B96D059CF2394F92C /* PXUITextField.h in Headers */,
+				5F702D1A6A1F359383BB6EB6 /* PXUITextView.h in Headers */,
+				2ED965EAD29C1F0EF69899CC /* PXUIToolbar.h in Headers */,
+				A8BCE3DDFA4B93ECCD077851 /* PXUIView.h in Headers */,
+				C1EFCB1E5562B340B49906ED /* PXUIWebView.h in Headers */,
+				008475573B2CBE3C18039997 /* PXUIWindow.h in Headers */,
+				0AB87F9F2B1E9784DB2013CF /* PXURLMatcher.h in Headers */,
+				4F544FD58B05C42CB43AA44E /* PXUtils.h in Headers */,
+				ECC6B972010A9AFF9EC0FC66 /* PXValue.h in Headers */,
+				3B68F5BF9338DFD8EAF2A1E7 /* PXValueParser.h in Headers */,
+				E7D8D19E4930842AD6C49239 /* PXVector.h in Headers */,
+				18B1354076818A3F2444B01E /* PXViewUtils.h in Headers */,
+				E9B5443941265695B1BD4383 /* PXVirtualControl.h in Headers */,
+				60A4D53311DFFF37E9CB3DD1 /* PXVirtualStyleableControl.h in Headers */,
+				ECA3C1CA5A2C09860A4320B7 /* PXWeakWrapper.h in Headers */,
+				FA8EECDCBC73D38BCD7323B8 /* PXWordMatcher.h in Headers */,
+				79FD7A431E53B4E0223CDE59 /* PixateFreestyle-Private.h in Headers */,
+				E6B4E9C93D031F23E3B9A7F8 /* PixateFreestyle.h in Headers */,
+				572D24D05B2EB921ADE17583 /* PixateFreestyleConfiguration.h in Headers */,
+				3476EEEEDACBA7660D1681FD /* UIBarButtonItem+PXStyling-Private.h in Headers */,
+				1C199C345712971DF9586C79 /* UIBarButtonItem+PXStyling.h in Headers */,
+				D34CB20BBD6B4F6A77A7A10F /* UIBarItem+PXStyling.h in Headers */,
+				AC5545BB1878232195806DF6 /* UIColor+PXColors.h in Headers */,
+				09A1A32C695518D9A13AD295 /* UINavigationItem+PXStyling.h in Headers */,
+				432F801BFEE5C4B1C7185BDA /* UITabBarItem+PXStyling.h in Headers */,
+				23205E38B6471E1ADBA55EE2 /* UIView+PXStyling-Private.h in Headers */,
+				07FE463E551F60D4D99849C0 /* UIView+PXStyling.h in Headers */,
+				2F34337F503ECAD2FA00DFFE /* Version.h in Headers */,
+				DA3F441FE1F8241C07914DDB /* objc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6230D330B0AB9479DDADC0D /* Headers */ = {
+		18615187AF267D98CA524EC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				054D2DE86DA5C298EC5C7FB6 /* AFHTTPRequestOperation.h in Headers */,
-				A9B117C04D7CDF07E55D0393 /* AFHTTPRequestOperationManager.h in Headers */,
-				2C74B09A1FAFA91BEC96F969 /* AFHTTPSessionManager.h in Headers */,
-				B71FBE8B02968EB32D3A8DFD /* AFNetworkReachabilityManager.h in Headers */,
-				4862BF216AEEE168F53FB6B1 /* AFSecurityPolicy.h in Headers */,
-				BBBF3E593740E77F8282B162 /* AFURLConnectionOperation.h in Headers */,
-				30BA2AA20AE34D5220D9C487 /* AFURLRequestSerialization.h in Headers */,
-				62DC79D127524800CCE2AE6A /* AFURLResponseSerialization.h in Headers */,
-				0A5405A5B88139430C3784C2 /* AFURLSessionManager.h in Headers */,
+				5BA898871E89BB78FAF88FA4 /* BDBOAuth1RequestOperationManager.h in Headers */,
+				EFD9A2804CD8A2603F129C17 /* BDBOAuth1RequestSerializer.h in Headers */,
+				7BB266E3A94AD607312F0F76 /* BDBOAuth1SessionManager.h in Headers */,
+				E2B3BAA03AA861874897873F /* NSDictionary+BDBOAuth1Manager.h in Headers */,
+				40BF38FCC88083F06C482A6B /* NSString+BDBOAuth1Manager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC7A9E77B23264A9F4E54C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4078C4C050ECB09231AB54 /* AFHTTPRequestOperation.h in Headers */,
+				7EF74B915A8552D01B9B3131 /* AFHTTPRequestOperationManager.h in Headers */,
+				357A473F606506677FA2318E /* AFHTTPSessionManager.h in Headers */,
+				6A16E0F4FBC4205249022FBA /* AFNetworkReachabilityManager.h in Headers */,
+				A019C7DD7AE0D5170BAD2921 /* AFSecurityPolicy.h in Headers */,
+				39B569F88FC3316EC41B3EC7 /* AFURLConnectionOperation.h in Headers */,
+				C7C39911B932EE3AAFDF4583 /* AFURLRequestSerialization.h in Headers */,
+				232D548A091E3B6AD7BCFC0F /* AFURLResponseSerialization.h in Headers */,
+				82B6157781B4D446BFCAAFC1 /* AFURLSessionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15FFD894FE1607C1C10470AB /* Pods-AFNetworking */ = {
+		14CE79F797B2F8E78D478D2E /* Pods-AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E166A5D13077952C73415C1 /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */;
+			buildConfigurationList = 7342276AF5391DC93020CDBB /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */;
 			buildPhases = (
-				9DA84EB7136B8F1B31EA365F /* Sources */,
-				582F2A72A130A5B9B71B8994 /* Frameworks */,
-				F6230D330B0AB9479DDADC0D /* Headers */,
+				6A218D17130E48D10551A0C7 /* Sources */,
+				150307C72A4066C87C622968 /* Frameworks */,
+				BAC7A9E77B23264A9F4E54C9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -387,152 +1304,169 @@
 			);
 			name = "Pods-AFNetworking";
 			productName = "Pods-AFNetworking";
-			productReference = 167D75E0527DD01CABFEBE33 /* libPods-AFNetworking.a */;
+			productReference = 8E5A49BDB5A8F2F8F9B30C93 /* libPods-AFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5DF67C71372A4C3F59F08CCE /* Pods-BDBOAuth1Manager */ = {
+		46CD7D9AD26682E93B76435F /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA44040488006A9D837930D4 /* Build configuration list for PBXNativeTarget "Pods-BDBOAuth1Manager" */;
+			buildConfigurationList = 44784C9794C12DED158304B3 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				FD9F04BB28E1E85FEAF898EE /* Sources */,
-				B7C3B165FE08116E64828962 /* Frameworks */,
-				2226F7935F1D149230332659 /* Headers */,
+				AC02E8538468A0582B5D53B9 /* Sources */,
+				56574E4EAC72DDA56EBDFAAD /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AE5C3A11BA6C73F856B79C3 /* PBXTargetDependency */,
-			);
-			name = "Pods-BDBOAuth1Manager";
-			productName = "Pods-BDBOAuth1Manager";
-			productReference = D0E92EAB9802B78514D25E6A /* libPods-BDBOAuth1Manager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		6956E4C0C6DAB22047B09A28 /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 513F0AD97671DE31598B5CEB /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				F6168B5349AF36309BE86FA1 /* Sources */,
-				A5D7A1AA4573B95E7FE7D6E1 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				16724BE7D68A2579FEFDC80D /* PBXTargetDependency */,
-				5B3DA5ECD9BF3C5FBCF02CCC /* PBXTargetDependency */,
+				72A0118B372A50C7B0B2A45B /* PBXTargetDependency */,
+				04267A60DDEE5F54AB4B346A /* PBXTargetDependency */,
+				5E05AB73214D7B6A6869EC95 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = C44FE7F3D142E4A4AB7CD1B6 /* libPods.a */;
+			productReference = 88B4EF768DAA4A9DF1F8CA7C /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A1EC64C8E2DFF4D2DA78FEDB /* Pods-PixateFreestyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9EEFBDBB135867FA018798F /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyle" */;
+			buildPhases = (
+				14127C961F61FD322C7AF70F /* Sources */,
+				7CF2349800847AE6BD3B965C /* Frameworks */,
+				0FFE9CBA0A85372BA58D4A3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PixateFreestyle";
+			productName = "Pods-PixateFreestyle";
+			productReference = 67D8F4E64135877DBCDCF392 /* libPods-PixateFreestyle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D81CDFD3BAA5301E8C35E6F9 /* Pods-BDBOAuth1Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26DD8344DEE198D6D99236A7 /* Build configuration list for PBXNativeTarget "Pods-BDBOAuth1Manager" */;
+			buildPhases = (
+				D4AB3538C301CC100A842028 /* Sources */,
+				7779934518530CA2A61FCFC8 /* Frameworks */,
+				18615187AF267D98CA524EC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6076511C90692E3E99CA0BB /* PBXTargetDependency */,
+			);
+			name = "Pods-BDBOAuth1Manager";
+			productName = "Pods-BDBOAuth1Manager";
+			productReference = 97C408999DA6723CDF5A34BF /* libPods-BDBOAuth1Manager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1C97ECE20D6231322025891B /* Project object */ = {
+		6CB3D4529DBAE24B097E6545 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = B41515FEA32AD9A2CD657901 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 3A480F61EBC238A7FC382E95 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B647EE7F8C2F5AF49B5309F3;
-			productRefGroup = FFF85E068BDADB8CE8A65083 /* Products */;
+			mainGroup = 4198103A9AF32D0E4FA8E571;
+			productRefGroup = FA471222C8BDE7DDC28C280C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6956E4C0C6DAB22047B09A28 /* Pods */,
-				15FFD894FE1607C1C10470AB /* Pods-AFNetworking */,
-				5DF67C71372A4C3F59F08CCE /* Pods-BDBOAuth1Manager */,
+				46CD7D9AD26682E93B76435F /* Pods */,
+				14CE79F797B2F8E78D478D2E /* Pods-AFNetworking */,
+				D81CDFD3BAA5301E8C35E6F9 /* Pods-BDBOAuth1Manager */,
+				A1EC64C8E2DFF4D2DA78FEDB /* Pods-PixateFreestyle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DA84EB7136B8F1B31EA365F /* Sources */ = {
+		14127C961F61FD322C7AF70F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893BCC9998DB8B5D186CA067 /* AFHTTPRequestOperation.m in Sources */,
-				8CBEF220434AE4EDFD7FE057 /* AFHTTPRequestOperationManager.m in Sources */,
-				FA1786FEDEE743A097B36E1C /* AFHTTPSessionManager.m in Sources */,
-				93783AB05D3D07117952C5C8 /* AFNetworkReachabilityManager.m in Sources */,
-				2B50B3D73A134FA82B5D194B /* AFSecurityPolicy.m in Sources */,
-				C8EE16EA52FEA14937C7BC48 /* AFURLConnectionOperation.m in Sources */,
-				9F66D7AAEFC8CC0189078ECA /* AFURLRequestSerialization.m in Sources */,
-				7CEBCB475C999F98CCA4E705 /* AFURLResponseSerialization.m in Sources */,
-				327CA830CA6B5A9948A56765 /* AFURLSessionManager.m in Sources */,
-				47749C7AEE959B5B18FF25AF /* Pods-AFNetworking-dummy.m in Sources */,
+				17229FE8FB8A209EBCF34870 /* Pods-PixateFreestyle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6168B5349AF36309BE86FA1 /* Sources */ = {
+		6A218D17130E48D10551A0C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3602E0A77C491884A0DCCF /* Pods-dummy.m in Sources */,
+				DE176C8A2D9CA837AA5EC70C /* AFHTTPRequestOperation.m in Sources */,
+				FA40F46EF54800BA4CEBC87C /* AFHTTPRequestOperationManager.m in Sources */,
+				77C646926A70DD5B0CBD25BE /* AFHTTPSessionManager.m in Sources */,
+				C6EF498F3BF92F8C226A557C /* AFNetworkReachabilityManager.m in Sources */,
+				AF2A7BADD5ACCE6EA77BD991 /* AFSecurityPolicy.m in Sources */,
+				236D9ADA5DC03419A7C30C26 /* AFURLConnectionOperation.m in Sources */,
+				2BC74225C2856E58D310F34A /* AFURLRequestSerialization.m in Sources */,
+				255A12E163B3C28F76C2376C /* AFURLResponseSerialization.m in Sources */,
+				C38F288C01376A28C1805747 /* AFURLSessionManager.m in Sources */,
+				F539BDC8F4DB866998E30C4E /* Pods-AFNetworking-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD9F04BB28E1E85FEAF898EE /* Sources */ = {
+		AC02E8538468A0582B5D53B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D184D4D8CF48F72D09B9D48 /* BDBOAuth1RequestOperationManager.m in Sources */,
-				619C2340381BBAFB82BCB389 /* BDBOAuth1RequestSerializer.m in Sources */,
-				ABE1F2A3E0B320EDEB7285F5 /* BDBOAuth1SessionManager.m in Sources */,
-				29E047D51DD578A01E0EA6B7 /* NSDictionary+BDBOAuth1Manager.m in Sources */,
-				3B8BDADD59AB75AB9C592706 /* NSString+BDBOAuth1Manager.m in Sources */,
-				A4525FCAEEBA15AA4EB6891F /* Pods-BDBOAuth1Manager-dummy.m in Sources */,
+				66BD7015D2273B9622837619 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AB3538C301CC100A842028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542BA54CEA9B2DE208D7B70 /* BDBOAuth1RequestOperationManager.m in Sources */,
+				6C841522482C22B96B5630E8 /* BDBOAuth1RequestSerializer.m in Sources */,
+				5E0DA3ED836F6B02680C5EF6 /* BDBOAuth1SessionManager.m in Sources */,
+				CCF421892464CAA8CD92D94C /* NSDictionary+BDBOAuth1Manager.m in Sources */,
+				C5F870701708479E20599B8F /* NSString+BDBOAuth1Manager.m in Sources */,
+				D43968FDFED421B9C6C1AE42 /* Pods-BDBOAuth1Manager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16724BE7D68A2579FEFDC80D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AFNetworking";
-			target = 15FFD894FE1607C1C10470AB /* Pods-AFNetworking */;
-			targetProxy = B285A7C29552963D0EB312C3 /* PBXContainerItemProxy */;
-		};
-		5B3DA5ECD9BF3C5FBCF02CCC /* PBXTargetDependency */ = {
+		04267A60DDEE5F54AB4B346A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BDBOAuth1Manager";
-			target = 5DF67C71372A4C3F59F08CCE /* Pods-BDBOAuth1Manager */;
-			targetProxy = 3935B44CA50F5FFEA2A5E76C /* PBXContainerItemProxy */;
+			target = D81CDFD3BAA5301E8C35E6F9 /* Pods-BDBOAuth1Manager */;
+			targetProxy = A8135F19B83099F0592184A1 /* PBXContainerItemProxy */;
 		};
-		6AE5C3A11BA6C73F856B79C3 /* PBXTargetDependency */ = {
+		5E05AB73214D7B6A6869EC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PixateFreestyle";
+			target = A1EC64C8E2DFF4D2DA78FEDB /* Pods-PixateFreestyle */;
+			targetProxy = FCE25A43B0BF496AA45F98D4 /* PBXContainerItemProxy */;
+		};
+		72A0118B372A50C7B0B2A45B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AFNetworking";
-			target = 15FFD894FE1607C1C10470AB /* Pods-AFNetworking */;
-			targetProxy = DA0A8A58706D1D60BE6166C8 /* PBXContainerItemProxy */;
+			target = 14CE79F797B2F8E78D478D2E /* Pods-AFNetworking */;
+			targetProxy = 72CDD2AD58780BA04CA13618 /* PBXContainerItemProxy */;
+		};
+		D6076511C90692E3E99CA0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFNetworking";
+			target = 14CE79F797B2F8E78D478D2E /* Pods-AFNetworking */;
+			targetProxy = 620AF2B34513CC693717199B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01E36C577EF11186C50CB92E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99B5BDC07F1ED045817AD52 /* Pods-BDBOAuth1Manager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-BDBOAuth1Manager/Pods-BDBOAuth1Manager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		0E0EC7DEFDDF22AC1A50437E /* Debug */ = {
+		20013435B7A702711B20BC5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -571,39 +1505,7 @@
 			};
 			name = Debug;
 		};
-		140120179B81D5F775CBFFE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37EA21FE91017EA4351D1417 /* Pods-AFNetworking-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		214CE06587499872B8EBB12C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECE623D21783306599897F97 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		325763E0F1A6749E24C48013 /* Release */ = {
+		23260486F038C7FB26B593BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -637,41 +1539,9 @@
 			};
 			name = Release;
 		};
-		46BD790B22FD467C133F49D8 /* Debug */ = {
+		2F05ED12E30686C6EA597606 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99B5BDC07F1ED045817AD52 /* Pods-BDBOAuth1Manager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-BDBOAuth1Manager/Pods-BDBOAuth1Manager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		A296610DCE2297BB9BE1A027 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37EA21FE91017EA4351D1417 /* Pods-AFNetworking-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E5754208F1821634C6219575 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 708FB25037DE76B3FB5979FA /* Pods.release.xcconfig */;
+			baseConfigurationReference = 929FE9937BB8981E2E1987A0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -685,46 +1555,167 @@
 			};
 			name = Release;
 		};
+		43A1B18D97A734F4EB532736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E64BD2F4B67E0E20573679 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		69A7F62D4D3904E624D19667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB13D1F444772CA5CEA7FEF6 /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7956AB93760CBCD287D8F2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3A502FF9FAC28790EDEFA3 /* Pods-PixateFreestyle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PixateFreestyle/Pods-PixateFreestyle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E42AAF024FA2323A1675114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB13D1F444772CA5CEA7FEF6 /* Pods-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AFNetworking/Pods-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A5B985D87E6E0C1FA759DFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3A502FF9FAC28790EDEFA3 /* Pods-PixateFreestyle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PixateFreestyle/Pods-PixateFreestyle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C71C75393C27800D9E9C4BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F1A946E12ECD1B43F0DD57 /* Pods-BDBOAuth1Manager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BDBOAuth1Manager/Pods-BDBOAuth1Manager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E150DC8E1B189E7409DBE4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F1A946E12ECD1B43F0DD57 /* Pods-BDBOAuth1Manager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BDBOAuth1Manager/Pods-BDBOAuth1Manager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		513F0AD97671DE31598B5CEB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		26DD8344DEE198D6D99236A7 /* Build configuration list for PBXNativeTarget "Pods-BDBOAuth1Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				214CE06587499872B8EBB12C /* Debug */,
-				E5754208F1821634C6219575 /* Release */,
+				E150DC8E1B189E7409DBE4A8 /* Debug */,
+				C71C75393C27800D9E9C4BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E166A5D13077952C73415C1 /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */ = {
+		3A480F61EBC238A7FC382E95 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				140120179B81D5F775CBFFE1 /* Debug */,
-				A296610DCE2297BB9BE1A027 /* Release */,
+				20013435B7A702711B20BC5B /* Debug */,
+				23260486F038C7FB26B593BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B41515FEA32AD9A2CD657901 /* Build configuration list for PBXProject "Pods" */ = {
+		44784C9794C12DED158304B3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E0EC7DEFDDF22AC1A50437E /* Debug */,
-				325763E0F1A6749E24C48013 /* Release */,
+				43A1B18D97A734F4EB532736 /* Debug */,
+				2F05ED12E30686C6EA597606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA44040488006A9D837930D4 /* Build configuration list for PBXNativeTarget "Pods-BDBOAuth1Manager" */ = {
+		7342276AF5391DC93020CDBB /* Build configuration list for PBXNativeTarget "Pods-AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46BD790B22FD467C133F49D8 /* Debug */,
-				01E36C577EF11186C50CB92E /* Release */,
+				69A7F62D4D3904E624D19667 /* Debug */,
+				7E42AAF024FA2323A1675114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9EEFBDBB135867FA018798F /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956AB93760CBCD287D8F2B2 /* Debug */,
+				A5B985D87E6E0C1FA759DFDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1C97ECE20D6231322025891B /* Project object */;
+	rootObject = 6CB3D4529DBAE24B097E6545 /* Project object */;
 }

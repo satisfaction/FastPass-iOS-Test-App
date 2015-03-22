@@ -42,3 +42,9 @@
 #define COCOAPODS_VERSION_MINOR_BDBOAuth1Manager 5
 #define COCOAPODS_VERSION_PATCH_BDBOAuth1Manager 0
 
+// PixateFreestyle
+#define COCOAPODS_POD_AVAILABLE_PixateFreestyle
+#define COCOAPODS_VERSION_MAJOR_PixateFreestyle 2
+#define COCOAPODS_VERSION_MINOR_PixateFreestyle 1
+#define COCOAPODS_VERSION_PATCH_PixateFreestyle 4
+

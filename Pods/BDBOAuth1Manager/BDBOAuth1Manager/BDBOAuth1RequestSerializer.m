@@ -338,8 +338,6 @@ static NSDictionary *OAuthKeychainDictionaryForService(NSString *service) {
 
     NSString *requestString = [NSString stringWithFormat:@"%@&%@&%@", requestMethod, requestURL, queryString];
     NSData *requestData = [requestString dataUsingEncoding:NSUTF8StringEncoding];
-
-    NSLog(@"%@", requestString);
     
     uint8_t digest[CC_SHA1_DIGEST_LENGTH];
     CCHmacContext context;
