@@ -48,7 +48,7 @@ text-field#input-uid {
     top: 298px;
 }
 
-button {
+button#submit-button {
     background-color: #F47C30;
     border-radius: 5px;
     color: #ffffff;
