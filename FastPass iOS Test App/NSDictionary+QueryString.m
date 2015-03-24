@@ -11,14 +11,14 @@
 @implementation NSDictionary (QueryString)
 
 - (NSString *)queryStringRepresentation {
-    NSMutableArray *paramArray = [NSMutableArray array];
+    NSMutableArray *queryComponents = [NSMutableArray array];
     
     [self enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
-        NSString *param = [NSString stringWithFormat:@"%@=%@", key, obj];
-        [paramArray addObject:param];
+        NSString *parameter = [NSString stringWithFormat:@"%@=%@", key, obj];
+        [queryComponents addObject:parameter];
     }];
     
-    return [paramArray componentsJoinedByString:@"&"];
+    return [queryComponents componentsJoinedByString:@"&"];
 }
 
 @end

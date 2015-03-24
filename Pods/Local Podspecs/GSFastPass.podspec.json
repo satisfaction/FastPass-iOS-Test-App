@@ -1,0 +1,26 @@
+{
+  "name": "GSFastPass",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "Objective-C library for Get Satisfaction's FastPass authentication",
+  "homepage": "https://github.com/satisfaction/GSFastPass",
+  "authors": {
+    "Andrew Hite": "ahite@getsatisfaction.com",
+    "Nathan Speed": "nspeed@getsatisfaction.com"
+  },
+  "source": {
+    "git": "https://github.com/satisfaction/GSFastPass.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "6.0",
+    "osx": "10.8"
+  },
+  "source_files": "GSFastPass/**/*.{h,m}",
+  "dependencies": {
+    "BDBOAuth1Manager": [
+      "~> 1.5"
+    ]
+  }
+}

@@ -10,6 +10,8 @@
 	<string>FastPass iOS Test App</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>04B1F8EDED00A954B94063A9D50AF6C357F237A9</key>
+		<string>github.com:satisfaction/GSFastPass.git</string>
 		<key>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</key>
 		<string>github.com:satisfaction/FastPass-iOS-Test-App.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>FastPass iOS Test App.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>04B1F8EDED00A954B94063A9D50AF6C357F237A9</key>
+		<string>../../GSFastPass</string>
 		<key>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</key>
 		<string>..</string>
 	</dict>
@@ -35,6 +39,14 @@
 			<string>F437526CE7893BA2C3CBB8AC575BDF30D0AB82B9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FastPass%20iOS%20Test%20App</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04B1F8EDED00A954B94063A9D50AF6C357F237A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GSFastPass</string>
 		</dict>
 	</array>
 </dict>

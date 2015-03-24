@@ -17,7 +17,6 @@
 		25C2AF151ABCED3200DA5983 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C2AF141ABCED3200DA5983 /* NSDictionary+QueryString.m */; };
 		25C2AF171ABCEE8A00DA5983 /* get-satisfaction.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C2AF161ABCEE8A00DA5983 /* get-satisfaction.png */; };
 		25C2AF191ABE300B00DA5983 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 25C2AF181ABE300B00DA5983 /* default.css */; };
-		25F6B4671ABF6596005E3A0D /* GSFastPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F6B4661ABF6596005E3A0D /* GSFastPass.m */; };
 		37143FADB9ED722105C2B03B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4F9B576909B9DD05BA5434 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +49,6 @@
 		25C2AF141ABCED3200DA5983 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
 		25C2AF161ABCEE8A00DA5983 /* get-satisfaction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get-satisfaction.png"; sourceTree = "<group>"; };
 		25C2AF181ABE300B00DA5983 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
-		25F6B4651ABF6596005E3A0D /* GSFastPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSFastPass.h; sourceTree = "<group>"; };
-		25F6B4661ABF6596005E3A0D /* GSFastPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSFastPass.m; sourceTree = "<group>"; };
 		36737F3C19239DC05CD6253C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8B4F9B576909B9DD05BA5434 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,8 +118,6 @@
 				25C2AF181ABE300B00DA5983 /* default.css */,
 				25BFA6491ABC7D8300CF4589 /* ViewController.h */,
 				25BFA64A1ABC7D8300CF4589 /* ViewController.m */,
-				25F6B4651ABF6596005E3A0D /* GSFastPass.h */,
-				25F6B4661ABF6596005E3A0D /* GSFastPass.m */,
 				25BFA64C1ABC7D8300CF4589 /* Main.storyboard */,
 				25BFA64F1ABC7D8300CF4589 /* Images.xcassets */,
 				25BFA6511ABC7D8300CF4589 /* LaunchScreen.xib */,
@@ -298,7 +293,6 @@
 			files = (
 				25C2AF151ABCED3200DA5983 /* NSDictionary+QueryString.m in Sources */,
 				25BFA64B1ABC7D8300CF4589 /* ViewController.m in Sources */,
-				25F6B4671ABF6596005E3A0D /* GSFastPass.m in Sources */,
 				25BFA6481ABC7D8300CF4589 /* AppDelegate.m in Sources */,
 				25BFA6451ABC7D8300CF4589 /* main.m in Sources */,
 			);

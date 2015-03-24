@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-AFOAuth1Client.xcscheme</key>
+		<key>Pods-BDBOAuth1Manager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-GSFastPass.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PixateFreestyle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,37 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>09FD302B839316AA8715305F</key>
+		<key>239182D320A28CE78EBC216F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>14CE79F797B2F8E78D478D2E</key>
+		<key>3DCC2B1320B54B3053F91923</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>46CD7D9AD26682E93B76435F</key>
+		<key>4A89E3436F45C8DC7541398A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5B5BDE0949BEA52F3F22BF86</key>
+		<key>974CB9CF67C1F1537CE6E7E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64725FE0D9630EBD7374626B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A1EC64C8E2DFF4D2DA78FEDB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D81CDFD3BAA5301E8C35E6F9</key>
+		<key>B594195378C94FE31FE03D2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

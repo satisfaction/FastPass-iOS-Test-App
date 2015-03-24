@@ -42,6 +42,12 @@
 #define COCOAPODS_VERSION_MINOR_BDBOAuth1Manager 5
 #define COCOAPODS_VERSION_PATCH_BDBOAuth1Manager 0
 
+// GSFastPass
+#define COCOAPODS_POD_AVAILABLE_GSFastPass
+#define COCOAPODS_VERSION_MAJOR_GSFastPass 0
+#define COCOAPODS_VERSION_MINOR_GSFastPass 0
+#define COCOAPODS_VERSION_PATCH_GSFastPass 1
+
 // PixateFreestyle
 #define COCOAPODS_POD_AVAILABLE_PixateFreestyle
 #define COCOAPODS_VERSION_MAJOR_PixateFreestyle 2

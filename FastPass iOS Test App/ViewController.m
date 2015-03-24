@@ -8,31 +8,15 @@
 //
 
 #import "ViewController.h"
-#import "GSFastPass.h"
 #import "NSDictionary+QueryString.h"
 
-#import <BDBOAuth1Manager/BDBOAuth1RequestOperationManager.h>
-#import <BDBOAuth1Manager/NSString+BDBOAuth1Manager.h>
+#import <GSFastPass/GSFastPass.h>
 #import <PixateFreestyle/PixateFreestyle.h>
 
-static NSString *const kOAuthScheme = @"https";
+static NSString *const kOAuthProtocol = @"https";
 static NSString *const kOAuthHost = @"dev.gsfn.us";
 static NSString *const kOAuthConsumerKey = @"hssewhwk32i1";
 static NSString *const kOAuthConsumerSecret = @"97ffsfe2ryqspj1ye345li6g3x3eu0ua";
-
-@interface BDBOAuth1RequestSerializer ()
-
-- (NSString *)OAuthSignatureForMethod:(NSString *)method
-                            URLString:(NSString *)URLString
-                           parameters:(NSDictionary *)parameters
-                                error:(NSError *__autoreleasing *)error;
-
-- (NSString *)OAuthAuthorizationHeaderForMethod:(NSString *)method
-                                      URLString:(NSString *)URLString
-                                     parameters:(NSDictionary *)parameters
-                                          error:(NSError *__autoreleasing *)error;
-
-@end
 
 @interface ViewController ()
 
@@ -43,24 +27,19 @@ static NSString *const kOAuthConsumerSecret = @"97ffsfe2ryqspj1ye345li6g3x3eu0ua
     UITextField *emailTextField;
     UITextField *nameTextField;
     UITextField *uidTextField;
-    
-    NSURL *baseURL;
-    NSMutableDictionary *parameters;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    int randomNumber = arc4random() % 9000 + 1000;
+    int randomNumber = arc4random() % 9000000 + 1000000;
     
-    baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@", kOAuthScheme, kOAuthHost]];
-    
-    parameters = [@{
-                  @"community": @"fastpass-enabled",
-                  @"email": [NSString stringWithFormat:@"qa%d@getsatisfaction.com", randomNumber],
-                  @"name": [NSString stringWithFormat:@"qa%d", randomNumber],
-                  @"uid": [NSString stringWithFormat:@"qa%d", randomNumber]
-                  } mutableCopy];
+    NSDictionary *parameters = @{
+        @"community": @"fastpass-enabled",
+        @"email": [NSString stringWithFormat:@"qa%d@getsatisfaction.com", randomNumber],
+        @"name": [NSString stringWithFormat:@"qa%d", randomNumber],
+        @"uid": [NSString stringWithFormat:@"qa%d", randomNumber]
+    };
     
     UIImage *logo = [UIImage imageNamed:@"get-satisfaction.png"];
     UIImageView *logoView = [[UIImageView alloc] initWithImage:logo];
@@ -100,34 +79,24 @@ static NSString *const kOAuthConsumerSecret = @"97ffsfe2ryqspj1ye345li6g3x3eu0ua
     [uidTextField setText:[parameters objectForKey:@"uid"]];
     [self.view addSubview:uidTextField];
     
-    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [button setStyleId:@"submit-button"];
-    [button addTarget:self action:@selector(openCommunityInBrowser:) forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:@"Launch Community" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(openCommunityInBrowser:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     
 }
 
 - (void)openCommunityInBrowser:(id)sender {
-    [[UIApplication sharedApplication] openURL:[self fastPassUrlForCommunity]];
-}
-
-- (NSURL *)fastPassUrlForCommunity {
-    GSFastPass *fastPass = [[GSFastPass alloc] initWithHost:kOAuthHost
-                                                   protocol:kOAuthScheme
-                                                consumerKey:kOAuthConsumerKey
-                                             consumerSecret:kOAuthConsumerSecret];
-   
-    return [fastPass loginUrlForCommunity:[communityTextField text]
-                                    email:[emailTextField text]
-                                     name:[nameTextField text]
-                                      uid:[uidTextField text]];
+    GSFastPass *fastPass = [[GSFastPass alloc] initWithHost:kOAuthHost protocol:kOAuthProtocol consumerKey:kOAuthConsumerKey consumerSecret:kOAuthConsumerSecret];
+    
+    NSURL *communityFastPassURL = [fastPass loginUrlForCommunity:[communityTextField text] email:[emailTextField text] name:[nameTextField text] uid:[uidTextField text]];
+    
+    [[UIApplication sharedApplication] openURL:communityFastPassURL];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
